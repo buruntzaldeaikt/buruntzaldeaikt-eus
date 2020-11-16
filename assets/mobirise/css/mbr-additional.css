@@ -3475,35 +3475,50 @@ a.nav-link {
 }
 }
 
-.cid-sgwcDP5NGC {
+.cid-sgweHuf40i {
 @fullScreen: false;
-@fullWidth: false;
-@paddingTop: 10;
+@fullWidth: true;
+@paddingTop: 0;
 @paddingBottom: 0;
-@textWidth: 10;
+@textWidth: 9;
+@contentAlign: "justify-content-center";
 @showTitle: true;
-@showSubtitle: false;
+@showSubitle: false;
+@showText: true;
 @showButtons: false;
-@uname__15: "../../app/themes/mobirise5/components/content4/../_images/background1.jpg";
-@uname__16: false;
+@uname__15: "file:///C:/Users/borja/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-11-14_093457/assets/images/estua-2000x463.jpg";
+@uname__16: true;
 @uname__17: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
+@bg-value: "file:///C:/Users/borja/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-11-14_093457/assets/images/estua-2000x463.jpg";
+@bg-type: "image";
 @bg-color-value: #ffffff;
-@bg-parallax: false;
+@bg-parallax: true;
 @overlay: true;
-@overlayColor: #ffffff;
-@overlayOpacity: 0.7;
+@overlayColor: #000000;
+@overlayOpacity: 0.1;
 
 & when not (@fullScreen) {
   padding-top: (@paddingTop * 1rem);
   padding-bottom: (@paddingBottom * 1rem);
 }
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
 & when (@bg-type = 'color') {
   background-color: @bg-value;
 }
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
+.mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+.mbr-text, .mbr-section-btn {
+  color: #ffffff;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .mbr-section-title, .mbr-section-btn, .mbr-text {
+    text-align: center;
+  }
 }
 }
 
