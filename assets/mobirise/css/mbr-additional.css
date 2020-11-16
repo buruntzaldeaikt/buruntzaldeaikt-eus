@@ -3484,7 +3484,7 @@ a.nav-link {
 @contentAlign: "justify-content-center";
 @showTitle: true;
 @showSubitle: false;
-@showText: true;
+@showText: false;
 @showButtons: false;
 @uname__15: "file:///C:/Users/borja/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-11-14_093457/assets/images/estua-2000x463.jpg";
 @uname__16: true;
