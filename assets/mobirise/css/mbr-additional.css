@@ -3475,50 +3475,35 @@ a.nav-link {
 }
 }
 
-.cid-sgvAfrHdiZ {
+.cid-sgwcDP5NGC {
 @fullScreen: false;
-@fullWidth: true;
-@paddingTop: 0;
+@fullWidth: false;
+@paddingTop: 10;
 @paddingBottom: 0;
-@textWidth: 9;
-@contentAlign: "justify-content-center";
+@textWidth: 10;
 @showTitle: true;
-@showSubitle: false;
-@showText: true;
+@showSubtitle: false;
 @showButtons: false;
-@uname__15: "file:///C:/Users/borja/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-11-14_093457/assets/images/bblog-news-landing-eng-700px-700x318.png";
-@uname__16: true;
+@uname__15: "../../app/themes/mobirise5/components/content4/../_images/background1.jpg";
+@uname__16: false;
 @uname__17: #ffffff;
-@bg-value: "file:///C:/Users/borja/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-11-14_093457/assets/images/bblog-news-landing-eng-700px-700x318.png";
-@bg-type: "image";
+@bg-value: #ffffff;
+@bg-type: "color";
 @bg-color-value: #ffffff;
-@bg-parallax: true;
+@bg-parallax: false;
 @overlay: true;
-@overlayColor: #000000;
+@overlayColor: #ffffff;
 @overlayOpacity: 0.7;
 
 & when not (@fullScreen) {
   padding-top: (@paddingTop * 1rem);
   padding-bottom: (@paddingBottom * 1rem);
 }
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
 & when (@bg-type = 'color') {
   background-color: @bg-value;
 }
-.mbr-section-title {
-  text-align: center;
-  color: #ffffff;
-}
-.mbr-text, .mbr-section-btn {
-  color: #ffffff;
-  text-align: center;
-}
-@media (max-width: 991px) {
-  .mbr-section-title, .mbr-section-btn, .mbr-text {
-    text-align: center;
-  }
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
 }
 }
 
