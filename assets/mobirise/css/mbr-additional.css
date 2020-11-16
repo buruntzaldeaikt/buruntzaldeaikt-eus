@@ -2767,7 +2767,7 @@ a.nav-link {
 @showTitle: true;
 @showSubitle: false;
 @showText: true;
-@showButtons: true;
+@showButtons: false;
 @uname__15: "file:///C:/Users/borja/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-11-14_093457/assets/images/calendario-1600x1032.jpg";
 @uname__16: true;
 @uname__17: #ffffff;
@@ -3485,7 +3485,7 @@ a.nav-link {
 @showTitle: true;
 @showSubitle: false;
 @showText: true;
-@showButtons: true;
+@showButtons: false;
 @uname__15: "file:///C:/Users/borja/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-11-14_093457/assets/images/bblog-news-landing-eng-700px-700x318.png";
 @uname__16: true;
 @uname__17: #ffffff;
@@ -3954,6 +3954,27 @@ padding-bottom: (@paddingBottom * 1rem);
     width: 175%;
     max-width: calc(100% + 2rem);
     left: -1rem;
+  }
+}
+.cid-sgw9fK5q7d {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-image: url("../../../assets/images/estua-2000x463.jpg");
+}
+.cid-sgw9fK5q7d .mbr-section-title {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-sgw9fK5q7d .mbr-text,
+.cid-sgw9fK5q7d .mbr-section-btn {
+  color: #ffffff;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .cid-sgw9fK5q7d .mbr-section-title,
+  .cid-sgw9fK5q7d .mbr-section-btn,
+  .cid-sgw9fK5q7d .mbr-text {
+    text-align: center;
   }
 }
 .cid-sgrGL2fo8u {
