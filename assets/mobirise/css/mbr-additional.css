@@ -3478,7 +3478,7 @@ a.nav-link {
 .cid-sgweHuf40i {
 @fullScreen: false;
 @fullWidth: true;
-@paddingTop: 10;
+@paddingTop: 1;
 @paddingBottom: 0;
 @textWidth: 9;
 @contentAlign: "justify-content-center";
