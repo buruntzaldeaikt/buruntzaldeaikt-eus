@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea IKT",
-    "currentPage": "egutegia-deialdiak.html",
+    "currentPage": "xedea-ikuspegia-balioak.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -70,16 +70,16 @@
       "textButton": "Ados nago"
     },
     "gdpr": {
-      "colorText": "#a7a7a7",
+      "colorText": "#353535",
       "colorLink": "#054d07",
-      "underlineLink": false,
+      "underlineLink": true,
       "text": "<a href='https://www.buruntzaldeaikt.eus/lege-oharra.html'>Lege Oharra, Baldintza Orokorrak eta Pribatutasun Politika</a>  irakurri ditut eta onartzen ditut"
     },
     "favicon": false,
     "google-analytics": "",
     "dppsSwitcher": true,
     "spellingSwitch": true,
-    "site_lang": "undefined",
+    "site_lang": "euskara",
     "publishChangesOnly": false
   },
   "pages": {
@@ -751,7 +751,8 @@
     "masterrak.html": {
       "settings": {
         "title": "Masterrak",
-        "order": 2
+        "order": 2,
+        "meta_image": "@PROJECT_PATH@/assets/images/whatsapp-image-2020-07-08-at-08.23.31-1500x1145.jpg"
       },
       "components": [
         {
@@ -2566,7 +2567,8 @@
     "estiloak.html": {
       "settings": {
         "title": "Estiloak",
-        "order": 3
+        "order": 3,
+        "meta_image": "@PROJECT_PATH@/assets/images/img-20200206-182856-608x456.jpg"
       },
       "components": [
         {
@@ -3171,7 +3173,8 @@
     "covid19.html": {
       "settings": {
         "title": "Covid-19",
-        "order": 5
+        "order": 5,
+        "meta_image": "@PROJECT_PATH@/assets/images/gettyimages-1209682211-1-788x443.jpg"
       },
       "components": [
         {
@@ -3777,7 +3780,8 @@
     "eskolar-federatua.html": {
       "settings": {
         "title": "Eskolar eta Federatua",
-        "order": 1
+        "order": 1,
+        "meta_image": "@PROJECT_PATH@/assets/images/51565968-717136465347036-3235300809973432320-o-2048x1264.jpg"
       },
       "components": [
         {
@@ -4511,7 +4515,8 @@
     "bloga.html": {
       "settings": {
         "title": "Bloga",
-        "order": 6
+        "order": 6,
+        "meta_image": "@PROJECT_PATH@/assets/images/2020-11-15-768x602.png"
       },
       "components": [
         {
@@ -5050,7 +5055,7 @@
       "settings": {
         "title": "egutegia-deialdiak",
         "order": 7,
-        "meta_image": "@PROJECT_PATH@/assets/images/logo%20berria3%20copia-896x459.png",
+        "meta_image": "@PROJECT_PATH@/assets/images/calendario-768x495.jpg",
         "meta_descr": ""
       },
       "components": [
@@ -5889,7 +5894,8 @@
     "errekorrak.html": {
       "settings": {
         "title": "Errekorrak",
-        "order": 8
+        "order": 8,
+        "meta_image": "@PROJECT_PATH@/assets/images/fb-img-1577904229535-768x374.jpg"
       },
       "components": [
         {
@@ -6440,7 +6446,8 @@
     "egokitua.html": {
       "settings": {
         "title": "Igeriketa Egokitua",
-        "order": 4
+        "order": 4,
+        "meta_image": "@PROJECT_PATH@/assets/images/dsc-1045-560x372.jpg"
       },
       "components": [
         {
@@ -7095,7 +7102,8 @@
     "bolondresak.html": {
       "settings": {
         "title": "Bolondresak",
-        "order": 9
+        "order": 9,
+        "meta_image": "@PROJECT_PATH@/assets/images/buruntzaldea-ikt-28182024979-o-811x541.jpg"
       },
       "components": [
         {
@@ -7769,7 +7777,8 @@
     "lan-poltsa.html": {
       "settings": {
         "title": "Lan Poltsa",
-        "order": 10
+        "order": 10,
+        "meta_image": "@PROJECT_PATH@/assets/images/10272609-456466644456587-69247149514710530-o-608x405.jpg"
       },
       "components": [
         {
