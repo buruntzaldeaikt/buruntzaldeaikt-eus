@@ -7638,6 +7638,9 @@
               ".text-wrapper": {
                 "padding": "2rem"
               }
+            },
+            "p": {
+              "text-align": "justify"
             }
           },
           "_name": "image1",
@@ -8319,6 +8322,9 @@
             ".image-wrapper img": {
               "width": "100%",
               "object-fit": "cover"
+            },
+            "p": {
+              "text-align": "justify"
             }
           },
           "_name": "features12",
