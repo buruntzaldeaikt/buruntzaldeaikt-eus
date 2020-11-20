@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea IKT",
-    "currentPage": "lege-oharra.html",
+    "currentPage": "bolondresak.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -7729,6 +7729,9 @@
               "color": "#000000"
             },
             "H4": {
+              "text-align": "justify"
+            },
+            "p": {
               "text-align": "justify"
             }
           },
