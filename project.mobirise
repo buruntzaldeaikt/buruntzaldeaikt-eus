@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea IKT",
-    "currentPage": "egutegia-deialdiak.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -48,14 +48,14 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 190,
+    "uniqCompNum": 191,
     "versionPublish": "5.2.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "robotsSwitcher": false,
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "sitemapSwitcher": false,
-    "siteUrl": false,
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://www.buruntzaldeaikt.eus/sitemap.xml",
     "sitemapSwitcherAuto": "on",
     "cookiesAlert": {
       "customDialogSelector": true,
@@ -602,7 +602,7 @@
                 "width": "30px",
                 "height": "2px",
                 "border-right": "5px",
-                "background-color": "currentColor",
+                "background-color": "white",
                 "&:nth-child(1)": {
                   "top": "0",
                   "transition": "all .2s"
