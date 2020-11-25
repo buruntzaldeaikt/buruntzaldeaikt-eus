@@ -141,7 +141,7 @@
                             <h5 class="card-title mbr-fonts-style m-0 display-5"><strong>EUSKADIKO KLUBEN ARTEKO KOPA</strong></h5>
                             <h6 class="mbr-fonts-style mb-3 display-4">
                                 <strong>2020/11/28 (Emakumezkoak)</strong></h6>
-                            <p class="mbr-text mbr-fonts-style display-4"><strong>Non:</strong>&nbsp;Fadura, Getxo<br><strong>Kategoriak:</strong> Absolutua<br><strong>Hasera ordua:</strong> 10:00etan eta 16:30etan&nbsp;<br><strong>Beroketa ordua:</strong>&nbsp;8:30etan eta 15:00etan</p>
+                            <p class="mbr-text mbr-fonts-style display-4"><strong>Non:</strong>&nbsp;Fadura, Getxo<br><strong>Kategoriak:</strong> Absolutua<br><strong>Hasera ordua:</strong> 10:00etan eta 16:30etan&nbsp;<br><strong>Beroketa ordua:</strong>&nbsp;8:30etan eta 15:00etan<br><a href="javascript:OpenModal('Janzkera')" class="text-primary"><strong>Janzkera</strong></a></p>
                             <div class="social-row display-7">
                                 <div class="soc-item">
                                     <a href="https://drive.google.com/open?id=1UPLVok_JcUmLT5GuPRULgVZ8raEhgqRN" target="_blank">
@@ -173,6 +173,59 @@
         
         
     </div>
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-5d" data-rv-view="597">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="Janzkera" tabindex="-1" role="dialog" aria-labelledby="JanzkeraLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="JanzkeraLabel">Janzkera ofiziala</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Janzkera_body">👉 JANZKERA: <br>&gt; Taldeko txandalaren txaketa / Sudadera<br>&gt; Taldeko txandalaren galtzak / Algodoizko galtzak / Taldeko Leggins-ak<br>&gt; Igerilekuko taldeko galtza motz beltzak<br>&gt; Igerilekuko taldeko kamixeta berdea<br>&gt; Taldeko bainujantzia / Fast-a<br>&gt; Taldeko txanoa<br><br>* Taldekide guztiek janzkera hau bete behar dute lehiketa honetan.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Itxi</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Janzkera").on("hidden.bs.modal", function () {    var html = $( "#Janzkera_body" ).html();    $( "#Janzkera_body" ).empty();    $( "#Janzkera_body" ).append(html);  })});</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
 </section>
 
 <section class="content6 cid-sgGDNbo3z7" id="content6-55">
@@ -415,7 +468,7 @@
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-59" data-rv-view="281">
+<section class="mbr-section" id="witsec-modal-window-block-59" data-rv-view="596">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
