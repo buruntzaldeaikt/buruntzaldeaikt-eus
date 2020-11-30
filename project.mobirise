@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea IKT",
-    "currentPage": "404.shtml",
+    "currentPage": "404.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -8611,7 +8611,7 @@
         }
       ]
     },
-    "404.shtml": {
+    "404.html": {
       "settings": {
         "title": "Orria ez da aurkitu",
         "order": 7,
