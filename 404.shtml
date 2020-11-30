@@ -6,17 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image:src" content="assets/images/bolondresak-meta.jpg">
-  <meta property="og:image" content="assets/images/bolondresak-meta.jpg">
-  <meta name="twitter:title" content="Bolondresak">
+  <meta name="twitter:image:src" content="assets/images/404.shtml-meta.png">
+  <meta property="og:image" content="assets/images/404.shtml-meta.png">
+  <meta name="twitter:title" content="Orria ez da aurkitu">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/logo-neurrirakoa.gif" type="image/x-icon">
   <meta name="description" content="">
   
   
-  <title>Bolondresak</title>
+  <title>Orria ez da aurkitu</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -33,25 +32,7 @@
 </head>
 <body>
   
-  <section class="header1 cid-sgG5Sc4FLp mbr-parallax-background" id="header1-4l">
-
-    
-
-    <div class="mbr-overlay" style="opacity: 0.1; background-color: rgb(0, 0, 0);"></div>
-
-    <div class="align-center container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-12">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><br><strong>BOLONDRESAK</strong></h1>
-                
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="menu cid-sgG5SetKsO" once="menu" id="menu1-4n">
+  <section class="menu cid-shOgCKLDOZ" once="menu" id="menu1-5j">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container-fluid">
@@ -95,164 +76,61 @@
 
 </section>
 
-<section class="image1 cid-sgG7pFYdNw" id="image1-4q">
-    
+<section class="header1 cid-shOgCHCcHB mbr-parallax-background" id="header1-5h">
 
     
 
-    <div>
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-4">
-                <div class="image-wrapper">
-                    <img src="assets/images/buruntzaldea-ikt-28182024979-o-811x541.jpg" alt="">
-                    
-                </div>
-            </div>
-            <div class="col-12 col-lg-6">
-                <div class="text-wrapper">
-                    
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        Txapelketak antolatzerako garaian, guraso, familiakide zein igerilarien laguntza behar izaten dugu lehiaketa horiek aurrera ateratzeko. <br><br>Horretarako, hemen behean zerrendan ipintzen ditugu gure taldeak denboraldian zehar antolatuko dituen txapelketak, nahi baduzu, antolaketa horretan zeure burua bolondres gisa aurkeztu ahal izan dezazun.<br><br><a href="bolondresak.html#content17-4s" class="text-primary"><strong>Txapelketak antolatzeko arrazoiak</strong></a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    <div class="mbr-overlay" style="opacity: 0.1; background-color: rgb(0, 0, 0);"></div>
 
-<section class="content16 cid-sgGgEgH1jI" id="content16-4u">
-
-    
-
-    
-    <div class="container">
+    <div class="align-center container-fluid">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-10">
+            <div class="col-12 col-lg-9">
+                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><br><br></h1>
                 
-                <div id="bootstrap-accordion_73" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
-                    <div class="card mb-3">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse1_73" aria-expanded="false" aria-controls="collapse1">
-                                <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>2020/2021 denboraldia:&nbsp;</strong>
-                                </h6>
-                                <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                            </a>
-                        </div>
-                        <div id="collapse1_73" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_73">
-                            <div class="panel-body">
-                                <p class="mbr-fonts-style panel-text display-7">1.- Distantzia Luzeko Absolutu mailako Euskal Herriko Txapelketa -2020/12/12- Maialen Chourraut, Lasarte-Oria</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                    
-                    
-                    
-                </div>
+                
+                
             </div>
         </div>
     </div>
 </section>
 
-<section class="content17 cid-sgGaZC49b4" id="content17-4s">
-
-    
-
+<section class="info1 cid-shOhGmD09w" id="info1-5m">
     
     
-    <div class="container">
-        
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10">
-                    <div class="section-head align-center mb-4">
-                        <h3 class="mbr-section-title mb-0 mbr-fonts-style display-2"><strong>Zergatik txapelketak antolatu?</strong></h3>
-                        <h4 class="mbr-section-subtitle mt-2 mb-0 mbr-fonts-style display-7">Txapelketak antolatzeko arrazoiak hiru arlotan biltzen dira nagusiki; bata “soziala”, bigarrena “ekonomikoa” eta hirugarren arlo batek taldeen arteko ikuspegi “solidarioari” egiten dio erreferentzia.<br></h4>
-                    </div>
-                    
-                    <div id="bootstrap-toggle" class="toggle-panel accordionStyles tab-content">
-                        <div class="card mb-3">
-                            <div class="card-header" role="tab" id="headingOne">
-                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse1_74" aria-expanded="false" aria-controls="collapse1">
-                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Gizarte ikuspegia</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h6>
-                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                                </a>
-                            </div>
-                            <div id="collapse1_74" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                    <p class="mbr-fonts-style panel-text display-7">i. Gure herrietan (Lasarten eta Andoainen) antolatzen ditugun lehiaketek gure igerilari, entrenatzaile eta laguntzaile bolondresei desplazamendu handirik egin behar ez izatea suposatzen die, gehienak bertako herritarrak izanik, igerilekura oinez joan daitezkeelako eta txapelketaren amaieran gainera, berriro ere kalean lehenago egoteko aukera ematen die.
-<br>
-<br>ii. Gure herrietan (Lasarten eta Andoainen) antolatzen ditugun lehiaketek, igeriketari presentzia eta “izatea” ematen die herri hauetan, bietan kirol honek tokia eta eskaera baduela azaleraziz.
-<br>
-<br>iii. Benjamin eta alebinen kasuan, txapelketa euren eguneroko igerileku eta lekuan egiteak, normalean izan ohi duten urduritasuna arintzen laguntzen die, lehiatzeko tokia ezagun zaielako eta bertan mugitzeko konfidantza eta lasaitasun gehiago izaten dutelako.
-<br>
-<br>
-<br>iv. Gure seme-alabek burutzen duten ekintza batean zuzenean partaide izateko aukera ematen digu, haur edo gazteak bere gurasoaren inplikazioa ikusten duelarik eta berak egiten duena, etxerako garrantzitsua eta positiboa dela sentituz.
-<br>
-<br>
-<br>v. Txapelketak antolatzeak talde eta helburu amankomuneko gurasoen artean erlazioak sortu eta sendotzea baimentzen du, taldeko dinamikan laguntzen du horrek.&nbsp;</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card mb-3">
-                            <div class="card-header" role="tab" id="headingTwo">
-                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse2_74" aria-expanded="false" aria-controls="collapse2">
-                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Ikuspegi ekonomikoa</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h6>
-                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                                </a>
-
-                            </div>
-                            <div id="collapse2_74" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                    <p class="mbr-fonts-style panel-text display-7">Arlo ekonomikoan, txapelketen antolaketagatik klubarentzat diru laguntza lortzen da.
-<br>
-<br>Denboraldian zehar burutzen diren txapelketa guztien artean, gure klubak ez du guztietan antolaketa lanak egiteko aukerarik, batez ere igerilekuen berezitasunagatik (harmaila falta, leku gutxi igerilekuan, eta abar). 
-<br>
-<br>Horrela, antolatu ditzakegun txapelketak honakoak dira: egoitzetan banatuta dauden lehiaketetako jardunaldiak (ligako jardunaldiak kategoria guztietan, benjamin eta alebinen txapelketak edo sariak, klubaren trofeoak eta  Infantil-junior-absolutuen Neguko eta Udako Gipuzkoako Sariak.<br>
-<br>Lehiaketa guzti hauen artean, bakoitzak ekonomikoki balio desberdina du, dituen sesio bakoitzaren arabera, mailaren arabera eta kronogailu motaren arabera. 
-<br>
-<br>Jasotzen den diru-laguntzatik, batzuetan, epaileen ordainketa ere egin behar da.&nbsp;<br></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card mb-3">
-                            <div class="card-header" role="tab" id="headingThree">
-                                <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse3_74" aria-expanded="false" aria-controls="collapse3">
-                                    <h6 class="panel-title-edit mbr-fonts-style mb-0 display-7"><strong>Elkartasun ikuspegia</strong>
-                                </h6>
-                                    <span class="sign mbr-iconfont mbri-arrow-down"></span>
-                                </a>
-                            </div>
-                            <div id="collapse3_74" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                    <p class="mbr-fonts-style panel-text display-7">Arlo orokorrago bat da hau, baina oso garrantzitsua. Izan ere, guk txapelketarik antolatuko ez bagenu, guk egiten ez ditugun hauek, jada beste batzuk antolatzeaz arduratzen diren taldeen gain jarriko genituzke, modu horretan talde hauei gainkarga bat jarriz eta, muturrean, lehiaketa hauek aurrera eramateko inor prest ez egotea gertatuz.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-</section>
-
-<section class="content4 cid-sgGfxBK7S9" id="content4-4t">
-    
-    
-    <div class="container">
+    <div class="align-center container-fluid">
         <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
+            <div class="col-12 col-lg-8">
+                <h3 class="mbr-section-title mb-4 mbr-fonts-style display-1"><strong>404</strong><br><strong>Ieeeeepa!!</strong><br><strong>Bila zabiltzan orria ez da aurkitu</strong></h3>
                 
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7"><div>Bakoitzak egin dezakeen aportazioak, zalantzarik gabe, haur zein gazteengan, klubarengan eta Gipuzkoako igeriketarengan  eragin positiboa du, eta alde horretatik, esfortzu bat egiteak pena merezi du!
-</div><div><br></div></h4>
-                
+                <div class="mbr-section-btn"><a class="btn btn-primary-outline display-4" href="index.html">HASIERARA JOAN</a></div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="footer4 cid-sgG5SheaSc" once="footers" id="footer4-4p">
+<section class="content15 cid-shOhDysKCk mbr-fullscreen" id="content15-5l">
+
+    
+
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="card col-md-12 col-lg-10">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <h4 class="card-title mbr-fonts-style mbr-white mb-3 display-2">
+                            <strong>Ieeeeepa!!
+</strong><div><strong>Bila zabiltzan orria ez da aurkitu</strong></div></h4>
+                        
+                        <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="index.html">HASIERARA JOAN</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer4 cid-shOgCMCbRW" once="footers" id="footer4-5k">
 
     
     
@@ -319,7 +197,7 @@
             </div>
         </div>
     </div>
-</section><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-core.js"></script>  <script src="assets/web/assets/cookies-alert-plugin/cookies-alert-script.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 <div id="cookie-dialog" style="display: none;"><div id="cookiesdirective"><div style="position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: rgb(0, 0, 0); opacity: 0.72; z-index: 9999;"></div><div style="position: fixed; top: 0; right: 0; bottom: 0; left: 0; display: flex; align-items: center; z-index: 10000"><div class="cookie-wrapper" style="position: relative; width: 100%; max-width: 500px; margin-right: auto; margin-left: auto; padding: 1rem; text-align: center; border-radius: .3rem; box-shadow: 0 10px 40px 0 rgba(0,0,0,0.2); color:#424a4d; background:rgba(234, 239, 241, 0.91);"><div class="mbr-text"><p class="display-7">Webgune honek cookiak erabiltzen ditu, nabigazio esperientzia hobea eskaintzeko asmoz. Irakurri gure <a style='color: #054d07; text-decoration: underline;' href='https://www.buruntzaldeaikt.eus/lege-oharra.html'>Lege Oharra, Baldintza Orokorrak eta Pribatutasun Politika</a>.</p></div><div class="mbr-section-btn"><a style="margin:0;;" class="btn btn-sm btn-primary display-7" id="impliedsubmit">Ados nago</a></div></div></div></div></div>
