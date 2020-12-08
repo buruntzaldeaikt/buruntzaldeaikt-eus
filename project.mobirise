@@ -100,7 +100,7 @@
     "witsec-mailform-disable-button": false,
     "witsec-mailform": false,
     "witsec-white-label": true,
-    "global_header_custom": "<!-- Marcado JSON-LD generado por el Asistente para el marcado de datos estructurados de Google. -->\n<script type=\"application/ld+json\">\n{\n  \"@context\" : \"http://schema.org\",\n  \"@type\" : \"LocalBusiness\",\n  \"name\" : \"Buruntzaldea IKT\",\n  \"image\" : \"https://www.buruntzaldeaikt.eus/assets/images/logo-neurrirakoa.gif\",\n  \"telephone\" : \"696506632\",\n  \"email\" : \"\",\n  \"address\" : {\n    \"@type\" : \"PostalAddress\",\n    \"streetAddress\" : \"Beko kale bidea 1, 2. solairua\",\n    \"addressLocality\" : \"Lasarte-Oria\",\n    \"addressRegion\" : \"Gipuzkoa\",\n    \"postalCode\" : \"20160\"\n  },\n  \"url\" : \"https://www.buruntzaldeaikt.eus/\"\n}\n</script>"
+    "global_header_custom": ""
   },
   "pages": {
     "index.html": {
