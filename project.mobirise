@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea IKT",
-    "currentPage": "egutegia-deialdiak.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -100,7 +100,7 @@
     "witsec-mailform-disable-button": false,
     "witsec-mailform": false,
     "witsec-white-label": true,
-    "global_header_custom": ""
+    "global_header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SN024HL996\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-SN024HL996');\n</script>\n"
   },
   "pages": {
     "index.html": {
