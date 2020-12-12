@@ -712,6 +712,23 @@ a {
   padding-bottom: 0rem;
   background-color: #ffb5b5;
 }
+.cid-siWIesJD6H {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-siWIesJD6H .video-wrapper iframe {
+  width: 100%;
+}
+.cid-siWIesJD6H .mbr-section-title,
+.cid-siWIesJD6H .mbr-description {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .cid-siWIesJD6H .text-wrapper {
+    padding: 2rem;
+  }
+}
 .cid-sgoK6u8osf {
   padding-top: 5rem;
   padding-bottom: 0rem;
