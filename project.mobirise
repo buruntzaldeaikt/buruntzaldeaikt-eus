@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea IKT",
-    "currentPage": "index.html",
+    "currentPage": "egutegia-deialdiak.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -5714,6 +5714,62 @@
           "_params": {}
         },
         {
+          "_params": {
+            "modalName": "Janzkera",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "Janzkera ofiziala",
+            "modalBody": "👉 JANZKERA: \n> Taldeko txandalaren txaketa / Sudadera\n> Taldeko txandalaren galtzak / Algodoizko galtzak / Taldeko Leggins-ak\n> Igerilekuko taldeko galtza motz beltzak\n> Igerilekuko taldeko kamixeta berdea\n> Taldeko bainujantzia / Fast-a\n> Taldeko txanoa\n\n* Taldekide guztiek janzkera hau bete behar dute lehiketa honetan.",
+            "modalBodyHTML": false,
+            "modalFooter": true,
+            "modalCloseBtn": true,
+            "modalCloseText": "Itxi",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": true,
+            "modalFade": true,
+            "modalAutoOpen": false,
+            "modalAutoOpenOnce": true,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Janzkera\">Preview Janzkera</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Janzkera-howtouse\">How to use Janzkera</a>\n</div>\n<div class=\"modal fade\" id=\"Janzkera-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Janzkera-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Janzkera-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Janzkera')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "👉 JANZKERA: \n> Taldeko txandalaren txaketa / Sudadera\n> Taldeko txandalaren galtzak / Algodoizko galtzak / Taldeko Leggins-ak\n> Igerilekuko taldeko galtza motz beltzak\n> Igerilekuko taldeko kamixeta berdea\n> Taldeko bainujantzia / Fast-a\n> Taldeko txanoa\n\n* Taldekide guztiek janzkera hau bete behar dute lehiketa honetan.",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-5d",
+          "modalWindow": "<div class=\"modal fade\" id=\"Janzkera\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"JanzkeraLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"JanzkeraLabel\">Janzkera ofiziala</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Janzkera_body\">👉 JANZKERA: <br />> Taldeko txandalaren txaketa / Sudadera<br />> Taldeko txandalaren galtzak / Algodoizko galtzak / Taldeko Leggins-ak<br />> Igerilekuko taldeko galtza motz beltzak<br />> Igerilekuko taldeko kamixeta berdea<br />> Taldeko bainujantzia / Fast-a<br />> Taldeko txanoa<br /><br />* Taldekide guztiek janzkera hau bete behar dute lehiketa honetan.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Itxi</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Janzkera\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Janzkera_body\" ).html();    $( \"#Janzkera_body\" ).empty();    $( \"#Janzkera_body\" ).append(html);  })});</script>"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            }
+          },
+          "_name": "content6",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        \n        <input type=\"color\" name=\"lineColor\" title=\"Color\" value=\"#054d07\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <hr class=\"line\">\n                <p class=\"mbr-text align-center mbr-fonts-style my-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">\n                    <i>Pasatako deialdiak</i></p>\n                <hr class=\"line\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgGDNbo3z7",
+          "_anchor": "content6-55",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
@@ -5866,62 +5922,6 @@
           "_anchor": "team2-5s",
           "_isUserblock": true,
           "_cid": "sitMe5h9bo",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_params": {
-            "modalName": "Janzkera",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Janzkera ofiziala",
-            "modalBody": "👉 JANZKERA: \n> Taldeko txandalaren txaketa / Sudadera\n> Taldeko txandalaren galtzak / Algodoizko galtzak / Taldeko Leggins-ak\n> Igerilekuko taldeko galtza motz beltzak\n> Igerilekuko taldeko kamixeta berdea\n> Taldeko bainujantzia / Fast-a\n> Taldeko txanoa\n\n* Taldekide guztiek janzkera hau bete behar dute lehiketa honetan.",
-            "modalBodyHTML": false,
-            "modalFooter": true,
-            "modalCloseBtn": true,
-            "modalCloseText": "Itxi",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": true,
-            "modalFade": true,
-            "modalAutoOpen": false,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
-          },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Janzkera\">Preview Janzkera</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Janzkera-howtouse\">How to use Janzkera</a>\n</div>\n<div class=\"modal fade\" id=\"Janzkera-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Janzkera-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Janzkera-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Janzkera')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "👉 JANZKERA: \n> Taldeko txandalaren txaketa / Sudadera\n> Taldeko txandalaren galtzak / Algodoizko galtzak / Taldeko Leggins-ak\n> Igerilekuko taldeko galtza motz beltzak\n> Igerilekuko taldeko kamixeta berdea\n> Taldeko bainujantzia / Fast-a\n> Taldeko txanoa\n\n* Taldekide guztiek janzkera hau bete behar dute lehiketa honetan.",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_sourceTheme": "mobirise5",
-          "_anchor": "witsec-modal-window-block-5d",
-          "modalWindow": "<div class=\"modal fade\" id=\"Janzkera\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"JanzkeraLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"JanzkeraLabel\">Janzkera ofiziala</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Janzkera_body\">👉 JANZKERA: <br />> Taldeko txandalaren txaketa / Sudadera<br />> Taldeko txandalaren galtzak / Algodoizko galtzak / Taldeko Leggins-ak<br />> Igerilekuko taldeko galtza motz beltzak<br />> Igerilekuko taldeko kamixeta berdea<br />> Taldeko bainujantzia / Fast-a<br />> Taldeko txanoa<br /><br />* Taldekide guztiek janzkera hau bete behar dute lehiketa honetan.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Itxi</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Janzkera\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Janzkera_body\" ).html();    $( \"#Janzkera_body\" ).empty();    $( \"#Janzkera_body\" ).append(html);  })});</script>"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            ".line": {
-              "background-color": "@lineColor",
-              "align": "center",
-              "height": "2px",
-              "margin": "0 auto"
-            }
-          },
-          "_name": "content6",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        \n        <input type=\"color\" name=\"lineColor\" title=\"Color\" value=\"#054d07\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <hr class=\"line\">\n                <p class=\"mbr-text align-center mbr-fonts-style my-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">\n                    <i>Pasatako deialdiak</i></p>\n                <hr class=\"line\">\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sgGDNbo3z7",
-          "_anchor": "content6-55",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
