@@ -53,7 +53,7 @@
     "imageResize": true,
     "screenshot": "screenshot.png",
     "robotsSwitcher": true,
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
+    "robotsText": "User-agent: *\nDisallow: \nDisallow: /cgi-bin/\nSitemap: https://www.buruntzaldeaikt.eus/sitemap.xml\n\n\n\n",
     "sitemapSwitcher": true,
     "siteUrl": "https://www.buruntzaldeaikt.eus/sitemap.xml",
     "sitemapSwitcherAuto": "on",
