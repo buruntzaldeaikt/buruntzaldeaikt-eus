@@ -744,62 +744,6 @@ a {
 .cid-sjZldZa2Bs .card-box {
   text-align: left;
 }
-.cid-skpH7zSPFU {
-  padding-top: 5rem;
-  padding-bottom: 0rem;
-  background-color: #fafafa;
-}
-.cid-skpH7zSPFU .card:not(:nth-last-child(1)) {
-  margin-bottom: 2rem;
-}
-.cid-skpH7zSPFU .card-wrapper {
-  background-color: #ffffff;
-  border-radius: 4px;
-}
-.cid-skpH7zSPFU .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-.cid-skpH7zSPFU .social-row .soc-item {
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  margin-right: 0.6rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  border: 2px solid #054d07;
-  transition: all 0.3s;
-}
-.cid-skpH7zSPFU .social-row .soc-item .mbr-iconfont {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  color: #054d07;
-  font-size: 1.5rem;
-  transition: all 0.3s;
-}
-.cid-skpH7zSPFU .social-row .soc-item:hover {
-  background-color: #054d07;
-}
-.cid-skpH7zSPFU .social-row .soc-item:hover .mbr-iconfont {
-  color: #ffffff;
-}
-@media (max-width: 767px) {
-  .cid-skpH7zSPFU .card-box {
-    padding: 1rem;
-  }
-}
-@media (min-width: 768px) {
-  .cid-skpH7zSPFU .card-box {
-    padding-right: 2rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-skpH7zSPFU .card-box {
-    padding-left: 2rem;
-    padding-right: 4rem;
-  }
-}
 .cid-sgoK6u8osf {
   padding-top: 5rem;
   padding-bottom: 0rem;
