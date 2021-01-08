@@ -196,7 +196,7 @@
             "modalVerticalCenter": true,
             "modalFade": true,
             "modalAutoOpen": true,
-            "modalAutoOpenOnce": false,
+            "modalAutoOpenOnce": true,
             "modalAutoOpenGDPR": false,
             "modalAutoOpenDelay": "3"
           },
