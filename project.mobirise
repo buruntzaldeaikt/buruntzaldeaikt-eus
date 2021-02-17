@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea IKT",
-    "currentPage": "egutegia-deialdiak.html",
+    "currentPage": "dohaintzak.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -62,7 +62,7 @@
     "siteUrl": "https://www.buruntzaldeaikt.eus/sitemap.xml",
     "sitemapSwitcherAuto": "on",
     "cookiesAlert": {
-      "customDialogSelector": true,
+      "customDialogSelector": false,
       "colorText": "#424a4d",
       "colorBg": "#eaeff1",
       "colorButton": "",
