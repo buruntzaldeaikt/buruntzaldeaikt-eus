@@ -1,7 +1,2 @@
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Sitemap: https://www.buruntzaldeaikt.eus/sitemap.xml
-
-
-
+Disallow: /cgi-bin
