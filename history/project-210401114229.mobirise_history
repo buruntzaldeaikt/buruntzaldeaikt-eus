@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea IKT",
-    "currentPage": "errekorrak.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -53,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 339,
+    "uniqCompNum": 335,
     "versionPublish": "5.3.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -109,7 +109,9 @@
     "global_before_html": "",
     "global_after_body": "<meta name=\"title\" content=\"Buruntzaldea IKT Igeriketa\">\n<meta name=\"description\" content=\"Buruntzaldea IKT igeriketa taldea da, Lasarte-Orian eta Andoainen jarduera burutzen duena. Sorrera 2007an izan zuen eta gaur egun 120 igerilari baino gehiago biltzen ditu. Taldearen jarduerak igeriketa eskolarra, igeriketa federatua, igeriketa egokitua, master igeriketa, parte-hartze igeriketa eta triatloia dira.\">\n<meta name=\"keywords\" content=\"BIKT, Buruntzaldea, buruntzaldea, bikt, igeriketa, lasarte, lasarte-oria, andoain, ikasi, talde, taldea, kluba, eskolarra, federatua, egokitua, parte-hartzea, parte-hartze, master, masterrak, bolondresak, xedea, ikuspegia, balioak, triatloia, estiloak, egutegia, errekorrak, taldeko, albisteak, bloga, covid19, egunerokoa, 2020/2021, deialdiak, hitzorduak, 696506632, info@buruntzaldeaikt.eus, lan poltsa, brnpwr, BRNPWR, bular, bizkar, krol, estilo, librea, tximeleta, lau\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"revisit-after\" content=\"7 days\">\n<meta name=\"author\" content=\"Buruntzaldea IKT\">\n\n",
     "mbrsiteDomain": "eaidmksiqd",
-    "witsec-language": "eu"
+    "witsec-language": "eu",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -7698,7 +7700,7 @@
           },
           "_name": "content4",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Taldeko Errekorrak</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    You can arrange your articles with the Mobirise website design software.\n                </h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Taldeko errekorrak</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    You can arrange your articles with the Mobirise website design software.\n                </h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "errekorrak",
           "_isUserblock": true,
           "_cid": "stjZ2uohis",
@@ -8155,78 +8157,6 @@
           "_anchor": "rankina",
           "_isUserblock": true,
           "_cid": "stjZ9fJmL6",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content11",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#e1e9de\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1ZyNdlB03jksKcMltPKIl3QrzUHVqqO1H\" data-app-placeholder=\"Type Text\" target=\"_blank\">p25 Emakumezkoak LIBRE</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=14F3Qsfx_y8a9vEvK3qbPGLSBzWsOcaz6\" data-app-placeholder=\"Type Text\" target=\"_blank\">p25 Emakumezkoak BIZKAR</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1QZS40qAuW-LUpv9Yecd9zLjMjTbX61WE\" data-app-placeholder=\"Type Text\" target=\"_blank\">p25 Emakumezkoak BULAR</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1Qx8Cft-pLrzktD0_xasdJqpjuygneWYP\" data-app-placeholder=\"Type Text\" target=\"_blank\">p25 Emakumezkoak TXIMELETA</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1FVNuxSwrCJfJpCNqODE6xGZFbh8l72tC\" data-app-placeholder=\"Type Text\" target=\"_blank\">p25 Emakumezkoak ESTILOAK</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content11-9b",
-          "_isUserblock": true,
-          "_cid": "stk0OOP2X6",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content11",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#e1e9de\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1IJgBLFDQh3Wuo94XRwjkmTYN87zCd3c_\" data-app-placeholder=\"Type Text\" target=\"_blank\">p25 Gizonezkoak LIBRE</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1ACC5vLe6tohVQxOQoUri2Dk65U6ptMkt\" data-app-placeholder=\"Type Text\" target=\"_blank\">p25 Gizonezkoak BIZKAR</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1m8pIsLvoWE-pWjVLXmp7igal09jKw4NL\" data-app-placeholder=\"Type Text\" target=\"_blank\">p25 Gizonezkoak BULAR</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1V6x0fZV12UoULCYJpaKNzlN7cwraZ6WH\" data-app-placeholder=\"Type Text\" target=\"_blank\">p25 Gizonezkoak TXIMELETA</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1FCC_h35NfIexJru2I8peuoN8ThCLGu9j\" data-app-placeholder=\"Type Text\" target=\"_blank\">p25 Gizonezkoak ESTILOAK</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content11-9c",
-          "_isUserblock": true,
-          "_cid": "stk0PsWsR8",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content11",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#e1e9de\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1FpG8IZFF5OtPTIdddAJu2OwAmKWyrzG1\" data-app-placeholder=\"Type Text\" target=\"_blank\">p50 Emakumezkoak LIBRE</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=19d_lLfxg4qpOrJm9KsNoPbEiUcq_8VXD\" data-app-placeholder=\"Type Text\" target=\"_blank\">p50 Emakumezkoak BIZKAR</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1aYWQ5dxuW5eFydESDmhJxFPEIZhv6KIY\" data-app-placeholder=\"Type Text\" target=\"_blank\">p50 Emakumezkoak BULAR</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1yud6dJdufOq_IDMA3iUjzdEZZ_AZje_d\" data-app-placeholder=\"Type Text\" target=\"_blank\">p50 Emakumezkoak TXIMELETA</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1pppksKTYMNmBDGtBWenbp39HlGoLOB9W\" data-app-placeholder=\"Type Text\" target=\"_blank\">p50 Emakumezkoak ESTILOAK</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content11-9d",
-          "_isUserblock": true,
-          "_cid": "stk0Q0DOkF",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content11",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#e1e9de\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=19V9SfhAff4vGiMzGRp9QjpsVvuHA1V0x\" data-app-placeholder=\"Type Text\" target=\"_blank\">p50 Gizonezkoak LIBRE</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1HIFire1dkb7qTgiNVbWQ-qjpDyWwHNvq\" data-app-placeholder=\"Type Text\" target=\"_blank\">p50 Gizonezkoak BIZKAR</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1ZHQ3KYbU00i4QB4V-hheUwjpuz-CwJIU\" data-app-placeholder=\"Type Text\" target=\"_blank\">p50 Gizonezkoak BULAR</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1zs45hqz23yvOtDMEA4yLxeA3-xhtIqHo\" data-app-placeholder=\"Type Text\" target=\"_blank\">p50 Gizonezkoak TXIMELETA</a> <a class=\"btn btn-black\" href=\"https://drive.google.com/open?id=1x6PM6R_qRPCcjoMychaIy-Q7QwiUWQdP\" data-app-placeholder=\"Type Text\" target=\"_blank\">p50 Gizonezkoak ESTILOAK</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content11-9e",
-          "_isUserblock": true,
-          "_cid": "stk0QCd1R7",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
