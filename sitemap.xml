@@ -27,9 +27,6 @@
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/egutegia-deialdiak.html</loc>
 	</url>
 	<url>
-		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/errekorrak.html</loc>
-	</url>
-	<url>
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/egokitua.html</loc>
 	</url>
 	<url>
@@ -52,5 +49,8 @@
 	</url>
 	<url>
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/zuzenekoak.html</loc>
+	</url>
+	<url>
+		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/errekorrak.html</loc>
 	</url>
 </urlset>
