@@ -41,7 +41,8 @@
       }
     ],
     "uniqCompNum": 0,
-    "versionPublish": "5.3.0"
+    "versionPublish": "5.3.0",
+    "imageResize": true
   },
   "pages": {
     "index.html": {
