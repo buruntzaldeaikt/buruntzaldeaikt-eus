@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea IKT",
-    "currentPage": "masterrak.html",
+    "currentPage": "gutxienekoak.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -53,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 351,
+    "uniqCompNum": 349,
     "versionPublish": "5.3.5",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -109,7 +109,9 @@
     "global_before_html": "",
     "global_after_body": "<meta name=\"title\" content=\"Buruntzaldea IKT Igeriketa\">\n<meta name=\"description\" content=\"Buruntzaldea IKT igeriketa taldea da, Lasarte-Orian eta Andoainen jarduera burutzen duena. Sorrera 2007an izan zuen eta gaur egun 120 igerilari baino gehiago biltzen ditu. Taldearen jarduerak igeriketa eskolarra, igeriketa federatua, igeriketa egokitua, master igeriketa, parte-hartze igeriketa eta triatloia dira.\">\n<meta name=\"keywords\" content=\"BIKT, Buruntzaldea, buruntzaldea, bikt, igeriketa, lasarte, lasarte-oria, andoain, ikasi, talde, taldea, kluba, eskolarra, federatua, egokitua, parte-hartzea, parte-hartze, master, masterrak, bolondresak, xedea, ikuspegia, balioak, triatloia, estiloak, egutegia, errekorrak, taldeko, albisteak, bloga, covid19, egunerokoa, 2020/2021, deialdiak, hitzorduak, 696506632, info@buruntzaldeaikt.eus, lan poltsa, brnpwr, BRNPWR, bular, bizkar, krol, estilo, librea, tximeleta, lau\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"revisit-after\" content=\"7 days\">\n<meta name=\"author\" content=\"Buruntzaldea IKT\">\n\n",
     "mbrsiteDomain": "eaidmksiqd",
-    "witsec-language": "eu"
+    "witsec-language": "eu",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -1102,7 +1104,7 @@
           },
           "_name": "content10",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content10\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" name=\"reverseContent\" title=\"Reverse\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"8\" value=\"5\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md\">\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>MASTER IGERIKETA</b></h5>\n                <h6 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><i>Master atala 18 urtetik gorako igerilari, igerilari ohi, triatloilari edo igeriketarekin zerikusia duen edozein jarduerako kirolariei zuzendua dago. Atal hontan entrenamendua da helburu nagusia eta horretarako beharrezkoak diren alderdi tekniko, taktiko eta fisikoak landu eta garatzen dira.</i><br><br><i>\n</i><div><i>\n</i></div><div><i>Entrenamendu talde bat izanik, helburua igerilekuko txapelketetarako, ur irekietako txapelketetarako zein triatloietarako igeriketa ahalmena landu eta hobetzea ditu helburu, beti ere igeriketak duen alderdi soziala eta osasun onura albo batera utzi gabe.</i></div></h6>\n            </div>\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">📍<i>&nbsp;Lasarte-Oriako \"Maialen Chourraut\" Udal Kiroldegian</i><br>📅<i> Astelehena, asteazkena eta ostirala.</i><b style=\"font-style: italic;\"><br></b>🕓<i> 7:10 - 8:25 edo</i><br>🕓 <i>16:25 - 17:10* (*Covid19 egokitzapena)</i><br><br>🏁<i>&nbsp;2020ko urriaren 2an</i><br><br>ℹ <a href=\"masterrak.html#tabs1-17\" class=\"text-primary\">Klubaren urteko kuotari buruzko informazioa</a><br><br><b>&gt;&gt;&gt;&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfAphJcxm_yhSwOVpELsx08-c7nuobhm_bymcfl1VY3T1R23Q/viewform\" class=\"text-primary\" target=\"_blank\"><b>IZEN EMATEA</b></a>&nbsp;&lt;&lt;&lt;</b><br><br>&gt;&nbsp;<a href=\"https://forms.gle/wCUacou9mdpFGubTA\" class=\"text-primary\" target=\"_blank\">Baja Eman</a>&nbsp;&lt;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content10\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" name=\"reverseContent\" title=\"Reverse\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"8\" value=\"5\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md\">\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>MASTER IGERIKETA</b></h5>\n                <h6 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><i>Master atala 18 urtetik gorako igerilari, igerilari ohi, triatloilari edo igeriketarekin zerikusia duen edozein jarduerako kirolariei zuzendua dago. Atal hontan entrenamendua da helburu nagusia eta horretarako beharrezkoak diren alderdi tekniko, taktiko eta fisikoak landu eta garatzen dira.</i><br><br><i>\n</i><div><i>\n</i></div><div><i>Entrenamendu talde bat izanik, helburua igerilekuko txapelketetarako, ur irekietako txapelketetarako zein triatloietarako igeriketa ahalmena landu eta hobetzea ditu helburu, beti ere igeriketak duen alderdi soziala eta osasun onura albo batera utzi gabe.</i></div></h6>\n            </div>\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">📍<i>&nbsp;Lasarte-Oriako \"Maialen Chourraut\" Udal Kiroldegian</i><br>📅<i> Astelehena, asteazkena eta ostirala.</i><b style=\"font-style: italic;\"><br></b>🕓<i> 7:10 - 8:25 edo 16:25 - 17:10</i><br>🏁<i>&nbsp;2020ko urriaren 2an</i><br><br>ℹ <a href=\"masterrak.html#tabs1-17\" class=\"text-primary\">Klubaren urteko kuotari buruzko informazioa</a><br><br><b>&gt;&gt;&gt;&nbsp;<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfAphJcxm_yhSwOVpELsx08-c7nuobhm_bymcfl1VY3T1R23Q/viewform\" class=\"text-primary\" target=\"_blank\"><b>IZEN EMATEA</b></a>&nbsp;&lt;&lt;&lt;</b><br><br>&gt;&nbsp;<a href=\"https://forms.gle/wCUacou9mdpFGubTA\" class=\"text-primary\" target=\"_blank\">Baja Eman</a>&nbsp;&lt;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sgkXZxiFjh",
           "_anchor": "content10-16",
           "_protectedParams": [],
@@ -4256,7 +4258,7 @@
           },
           "_name": "content10",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content10\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" name=\"reverseContent\" title=\"Reverse\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"8\" value=\"5\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md\">\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>IGERIKETA ESKOLARRA, FEDERATUA ETA EGOKITUA</b></h5>\n                <h6 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><b>IGERIKETA ESKOLARRA ETA FEDERATUA</b><br><i>Igeriketa Eskolar eta Federatua klubaren oinarria da eta bizitza osoko kirol ibilbide bat eskaintzen du, bai igeriketa arruntean bakarrik zein klubeko beste disziplinetara bidea zabalduz.</i><br><br><i>\n</i><div><i>\n</i></div><div><i>Igeriketa Eskolar zein Federatuan, haur eta gazteek igeriketaren oinarriak ikasi eta garatzen dituzte kirol honetan maisutza lortu arte, bakoitzari, bere neurrian, kirol ibilbidean aurrera egitea ahalbidetuz.</i></div><div><i><br></i></div><div><i>Klubaren disziplinen barruan oinarria izanik, erabateko lehentasuna du lehen urteetan (aurrebenjamin eta benjaminetan), etorkizunera begira uretako edozein disziplinaren oinarria baita.</i></div><div><i><br></i></div><b>IGERIKETA EGOKITUA</b><br><div><i>Igeriketa Egokituan, nolabaiteko muga funtzionala duten haur eta gazteei eskaintzen zaie igeriketa kirola. Muga hauek jatorri fisikoa zein intelektuala izan dezakete eta maila eta gradu desberdinetan eragin dezakete pertsona.</i></div><br><div><i>\n</i></div><div><i>\n</i></div><div><i>Igeriketa Egokituak, muga funtzionala duen haur edo gazteari kirolean parte hartzea baimentzen dio, gizarte eta kirol inklusioa helburu hartuz eta lehiaketako igeriketan kirol ibilbide oso bat eskainiz. <a href=\"egokitua.html\" class=\"text-primary\"><b>&lt;&lt;&nbsp;<i style>Ezagutu Igeriketa Egokitua &gt;&gt;</i></b></a></i></div></h6>\n            </div>\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">📍<i>&nbsp;Lasarte-Oriako \"Maialen Chourraut\" Udal Kiroldegian</i><br>📍<i> Andoaingo \"Allurralde\" Udal Kiroldegian</i><br><br>📅<i>&nbsp;</i><b style=\"font-style: italic;\">Egunak eta ordutegiak: </b><a href=\"eskolar-federatua.html#Lasarte-Oria\" class=\"text-primary\" style=\"font-style: italic;\">Lasarte-Orian</a><i> | </i><a href=\"eskolar-federatua.html#Andoain\" class=\"text-primary\" style=\"font-style: italic;\">Andoainen</a><br><br>🏁<i>&nbsp;<b>Denboraldi hasiera:</b> 2020ko irailaren 14an</i><br><br>ℹ <a href=\"eskolar-federatua.html#tabs1-31\" class=\"text-primary\">Klubaren urteko kuotari buruzko informazioa</a><br><br><b>&gt;&gt;&gt;&nbsp;<b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLScJREURQjuZYGaGvGFZ9HiLqWuSaH9RHJPuQl2enbAsPGnQ3Q/viewform\" class=\"text-primary\" target=\"_blank\"><b>IZEN EMATEA LASARTE-ORIAN</b></a>&nbsp;&lt;&lt;&lt;</b></b><br><br><b><b>&gt;&gt;&gt;&nbsp;<b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdIiki6KrRWrpPlXSJIwNrqvBEWUNtgarYObtqFFxryUu0B6g/viewform\" class=\"text-primary\" target=\"_blank\"><b>IZEN EMATEA ANDOAINEN</b></a>&nbsp;&lt;&lt;&lt;</b></b></b><br><br>&gt;&nbsp;<a href=\"https://forms.gle/wCUacou9mdpFGubTA\" class=\"text-primary\" target=\"_blank\">Baja eman</a>&nbsp;&lt;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content10\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" name=\"reverseContent\" title=\"Reverse\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"8\" value=\"5\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md\">\n                <h5 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>IGERIKETA ESKOLARRA, FEDERATUA ETA EGOKITUA</b></h5>\n                <h6 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><b>IGERIKETA ESKOLARRA ETA FEDERATUA</b><br><i>Igeriketa Eskolar eta Federatua klubaren oinarria da eta bizitza osoko kirol ibilbide bat eskaintzen du, bai igeriketa arruntean bakarrik zein klubeko beste disziplinetara bidea zabalduz.</i><br><br><i>\n</i><div><i>\n</i></div><div><i>Igeriketa Eskolar zein Federatuan, haur eta gazteek igeriketaren oinarriak ikasi eta garatzen dituzte kirol honetan maisutza lortu arte, bakoitzari, bere neurrian, kirol ibilbidean aurrera egitea ahalbidetuz.</i></div><div><i><br></i></div><div><i>Klubaren disziplinen barruan oinarria izanik, erabateko lehentasuna du lehen urteetan (aurrebenjamin eta benjaminetan), etorkizunera begira uretako edozein disziplinaren oinarria baita.</i></div><div><i><br></i></div><b>IGERIKETA EGOKITUA</b><br><div><i>Igeriketa Egokituan, nolabaiteko muga funtzionala duten haur eta gazteei eskaintzen zaie igeriketa kirola. Muga hauek jatorri fisikoa zein intelektuala izan dezakete eta maila eta gradu desberdinetan eragin dezakete pertsona.</i></div><br><div><i>\n</i></div><div><i>\n</i></div><div><i>Igeriketa Egokituak, muga funtzionala duen haur edo gazteari kirolean parte hartzea baimentzen dio, gizarte eta kirol inklusioa helburu hartuz eta lehiaketako igeriketan kirol ibilbide oso bat eskainiz. <a href=\"egokitua.html\" class=\"text-primary\"><i style>Ezagutu Igeriketa Egokitua &gt;&gt;</i></a></i></div></h6>\n            </div>\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">📍<i>&nbsp;Lasarte-Oriako \"Maialen Chourraut\" Udal Kiroldegian</i><br>📍<i> Andoaingo \"Allurralde\" Udal Kiroldegian</i><br><br>📅<i>&nbsp;</i><b style=\"font-style: italic;\">Egunak eta ordutegiak: </b><a href=\"eskolar-federatua.html#tabs1-35\" class=\"text-primary\" style=\"font-style: italic;\">Lasarte-Orian</a><i> | </i><a href=\"eskolar-federatua.html#tabs1-36\" class=\"text-primary\" style=\"font-style: italic;\">Andoainen</a><br><br>🏁<i>&nbsp;<b>Denboraldi hasiera:</b> 2020ko irailaren 14an</i><br><br>ℹ <a href=\"eskolar-federatua.html#tabs1-31\" class=\"text-primary\">Klubaren urteko kuotari buruzko informazioa</a><br><br><b>&gt;&gt;&gt;&nbsp;<b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLScJREURQjuZYGaGvGFZ9HiLqWuSaH9RHJPuQl2enbAsPGnQ3Q/viewform\" class=\"text-primary\" target=\"_blank\"><b>IZEN EMATEA LASARTE-ORIAN</b></a>&nbsp;&lt;&lt;&lt;</b></b><br><br><b><b>&gt;&gt;&gt;&nbsp;<b><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdIiki6KrRWrpPlXSJIwNrqvBEWUNtgarYObtqFFxryUu0B6g/viewform\" class=\"text-primary\" target=\"_blank\"><b>IZEN EMATEA ANDOAINEN</b></a>&nbsp;&lt;&lt;&lt;</b></b></b><br><br>&gt;&nbsp;<a href=\"https://forms.gle/wCUacou9mdpFGubTA\" class=\"text-primary\" target=\"_blank\">Baja eman</a>&nbsp;&lt;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sgvD7vAJFd",
           "_anchor": "content10-2z",
           "_protectedParams": [],
@@ -4265,89 +4267,64 @@
           "_params": {}
         },
         {
-          "_name": "design-block",
-          "_sourceTheme": "mobirise5",
+          "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-text": {
-              "color": "#767676"
+            ".nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-link.active:focus": {
+              "outline": "none"
             },
-            "h4": {
+            ".nav-tabs": {
+              "flex-wrap": "wrap",
+              "border-bottom": "1px solid @activeColor"
+            },
+            ".nav-item": {
+              "@media (max-width: 767px)": {
+                "width": "100%",
+                "margin": "0"
+              }
+            },
+            ".nav-tabs .nav-link": {
+              "transition": "all .5s",
+              "border": "none",
+              "border-bottom": "3px solid transparent",
+              "border-radius": "0 !important",
+              "&:not(.active)": {
+                "color": "@tabsColor"
+              }
+            },
+            ".nav-tabs .nav-item": {
+              "margin-right": "1.5rem"
+            },
+            ".nav-link, .nav-link.active": {
+              "padding": "1rem 0",
+              "background-color": "transparent"
+            },
+            ".nav-tabs .nav-link.active": {
+              "color": "@activeColor",
+              "border-bottom": "3px solid @activeColor"
+            },
+            "H4": {
               "text-align": "center"
             },
-            "p": {
+            "H3": {
               "text-align": "center"
             },
-            ".badge": {
-              "position": "relative",
-              "width": "unit(@badgeWidth, px)",
-              "display": "inline-block",
-              "margin": "0 unit(@badgeMargin, px) unit(@badgeMargin, px) unit(@badgeMargin, px)"
-            },
-            ".badge svg": {
-              "width": "unit(@badgeWidth, px)"
-            },
-            ".title": {
-              "position": "absolute",
-              "top": "-28px",
-              "border-radius": "8px 8px 0 0",
-              "text-align": "center",
-              "width": "100%",
-              "padding": "20px 0",
-              "color": "#232323"
-            },
-            ".subtitle": {
-              "position": "absolute",
-              "width": "100%",
-              "text-align": "center",
-              "color": "#ffffff",
-              "top": "100px"
-            },
-            ".stars": {
-              "position": "absolute",
-              "width": "100%",
-              "text-align": "center",
-              "color": "#ffffff",
-              "top": "140px"
-            },
-            ".cBadge1 .title": {
-              "background": "@cBadge1"
-            },
-            ".cBadge1 .subtitle:after": {
-              "color": "@cBadge1"
-            },
-            ".cBadge2 .title": {
-              "background": "@cBadge2"
-            },
-            ".cBadge2 .subtitle:after": {
-              "color": "@cBadge2"
-            },
-            ".cBadge3 .title": {
-              "background": "@cBadge3"
-            },
-            ".cBadge3 .subtitle:after": {
-              "color": "@cBadge3"
-            },
-            ".cBadge4 .title": {
-              "background": "@cBadge4"
-            },
-            ".cBadge4 .subtitle:after": {
-              "color": "@cBadge4"
+            "P": {
+              "text-align": "center"
             }
           },
-          "_customHTML": "<section class=\"features\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> \n        \n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n\n        <header>Badges</header>\n        <select title=\"Badges\" name=\"badgeAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"color\" name=\"cBadge1\" title=\"Badge 1\" value=\"#dc514e\">\n        <input type=\"color\" name=\"cBadge2\" title=\"Badge 2\" value=\"#2ecc71\" condition=\"badgeAmount > 1\">\n        <input type=\"color\" name=\"cBadge3\" title=\"Badge 3\" value=\"#95a5a6\" condition=\"badgeAmount > 2\">\n        <input type=\"color\" name=\"cBadge4\" title=\"Badge 4\" value=\"#f1c40f\" condition=\"badgeAmount > 3\">\n        <input type=\"color\" name=\"cBadgeBG\" title=\"Badge Background\" value=\"#2b2b2b\">\n        <input type=\"range\" title=\"Size\" name=\"badgeWidth\" min=\"100\" max=\"250\" step=\"1\" value=\"250\">\n        <input type=\"range\" title=\"Spacing\" name=\"badgeMargin\" min=\"0\" max=\"50\" step=\"1\" value=\"8\">\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Egunak eta Ordutegiak</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">Lasarte-Oria</h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Para nacidas/os en 2009 y anteriores ponerse en contacto con el club</p>\n            </div>\n            <div class=\"p-3 pt-4 col-md-12 align-center\">\n              <div class=\"badge cBadge1\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 216 232\">\n                  <path fill=\"{{cBadgeBG}}\" d=\"M207,0C171.827,0.001,43.875,0.004,9.003,0c-5.619-0.001-9,3.514-9,9c0,28.23-0.006,151.375,0,169    c0.005,13.875,94.499,54,107.999,54S216,191.57,216,178V9C216,3.298,212.732,0,207,0z\"></path>\n                </svg>\n                <p class=\"title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".title\"><b>2013</b>an jaioak<br><br></p>\n                <p class=\"subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".subtitle\"><br>asteartea eta osteguna</p>\n                <p class=\"stars mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".stars\"><br>*17:30 a 19:00<br>*Covid19 egokitzapena<br></p>\n              </div>\n\n              <div class=\"badge cBadge2\" mbr-if=\"badgeAmount > 1\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 216 232\">\n                  <path fill=\"{{cBadgeBG}}\" d=\"M207,0C171.827,0.001,43.875,0.004,9.003,0c-5.619-0.001-9,3.514-9,9c0,28.23-0.006,151.375,0,169    c0.005,13.875,94.499,54,107.999,54S216,191.57,216,178V9C216,3.298,212.732,0,207,0z\"></path>\n                </svg>\n                <p class=\"title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".title\"><b>2012</b>an jaioak<br><br></p>\n                <p class=\"subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".subtitle\"><br>astelehena eta ostirala</p>\n                <p class=\"stars mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".stars\"><br>*17:30 a 19:00\n<br>*Covid19 egokitzapena<br></p>\n              </div>\n\n              <div class=\"badge cBadge3\" mbr-if=\"badgeAmount > 2\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 216 232\">\n                  <path fill=\"{{cBadgeBG}}\" d=\"M207,0C171.827,0.001,43.875,0.004,9.003,0c-5.619-0.001-9,3.514-9,9c0,28.23-0.006,151.375,0,169    c0.005,13.875,94.499,54,107.999,54S216,191.57,216,178V9C216,3.298,212.732,0,207,0z\"></path>\n                </svg>\n                <p class=\"title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".title\"><b>2011</b>n&nbsp;eta <br><b>2010</b>ean&nbsp;jaioak<br></p>\n                <p class=\"subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".subtitle\"><br>astel., asteazk. eta ostirala<br></p>\n                <p class=\"stars mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".stars\"><br>*17:30 a 19:00\n<br>*Covid19 egokitzapena<br></p>\n              </div>\n\n              <div class=\"badge cBadge4\" mbr-if=\"badgeAmount > 3\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 216 232\">\n                  <path fill=\"{{cBadgeBG}}\" d=\"M207,0C171.827,0.001,43.875,0.004,9.003,0c-5.619-0.001-9,3.514-9,9c0,28.23-0.006,151.375,0,169    c0.005,13.875,94.499,54,107.999,54S216,191.57,216,178V9C216,3.298,212.732,0,207,0z\"></path>\n                </svg>\n                <p class=\"title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".title\"><b>2009 eta aurrez</b><br>jaioak<br></p>\n                <p class=\"subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".subtitle\"><br>Covid19 egokitzapenak<br>direla eta, jarri klubarekin<br>harremanetan</p>\n                <p class=\"stars mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".stars\"></p>\n              </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "Lasarte-Oria",
-          "_isUserblock": true,
-          "_cid": "svovoMmruX",
+          "_name": "tabs1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"tabs content18\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Tabs</header>\n        <select title=\"Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"color\" name=\"tabsColor\" title=\"Color\" value=\"#000000\">\n        <input type=\"color\" name=\"activeColor\" title=\"Active Color\" value=\"#054d07\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#e1e9de\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle || showSubtitle\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    <b>Egunak eta Orduak</b></h3>\n                <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Lasarte-Oria</h4>\n            </div>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <ul class=\"nav nav-tabs mb-4\" role=\"tablist\">\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item first mbr-fonts-style\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style show\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-35_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"false\">\n                            <strong>2013an jaioak</strong>\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-35_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>2012an jaioak</strong>\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-35_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>2011n jaioak</strong>\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-35_tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>2010ean jaioak</strong>\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-35_tab4\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>2009an eta aurrez jaioak</strong>\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <b>Architecture</b>\n                        </a>\n                    </li>\n                </ul>\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Asteartea eta Osteguna, 17:30-19:00 (aldagelen erabilpen tartea barne; 10'x2)\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Astelehena eta Ostirala, 17:30-19:00 (aldagelen erabilpen tartea barne; 10'x2) </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Astelehena, Asteazkena eta Ostirala, 17:30-19:00 (aldagelen erabilpen tartea barne; 10'x2)\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Astelehena, Asteazkena eta Ostirala, 17:30-19:00 (aldagelen erabilpen tartea barne; 10'x2)</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Jarri klubarekin harremanetan\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Free Website Builder offers a huge collection of 2500+ website blocks, templates and\n                                    themes with thousands flexible options. Combine blocks from different themes to\n                                    create a unique mix.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sgvIwW87rp",
+          "_anchor": "tabs1-35",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -4749,89 +4726,65 @@
           "_params": {}
         },
         {
-          "_name": "design-block",
-          "_sourceTheme": "mobirise5",
+          "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-text": {
-              "color": "#767676"
+            ".nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-link.active:focus": {
+              "outline": "none"
             },
-            "h4": {
+            ".nav-tabs": {
+              "flex-wrap": "wrap",
+              "border-bottom": "1px solid @activeColor"
+            },
+            ".nav-item": {
+              "@media (max-width: 767px)": {
+                "width": "100%",
+                "margin": "0"
+              }
+            },
+            ".nav-tabs .nav-link": {
+              "transition": "all .5s",
+              "border": "none",
+              "border-bottom": "3px solid transparent",
+              "border-radius": "0 !important",
+              "&:not(.active)": {
+                "color": "@tabsColor"
+              }
+            },
+            ".nav-tabs .nav-item": {
+              "margin-right": "1.5rem"
+            },
+            ".nav-link, .nav-link.active": {
+              "padding": "1rem 0",
+              "background-color": "transparent"
+            },
+            ".nav-tabs .nav-link.active": {
+              "color": "@activeColor",
+              "border-bottom": "3px solid @activeColor"
+            },
+            "H4": {
               "text-align": "center"
             },
-            "p": {
+            "H3": {
               "text-align": "center"
             },
-            ".badge": {
-              "position": "relative",
-              "width": "unit(@badgeWidth, px)",
-              "display": "inline-block",
-              "margin": "0 unit(@badgeMargin, px) unit(@badgeMargin, px) unit(@badgeMargin, px)"
-            },
-            ".badge svg": {
-              "width": "unit(@badgeWidth, px)"
-            },
-            ".title": {
-              "position": "absolute",
-              "top": "-28px",
-              "border-radius": "8px 8px 0 0",
-              "text-align": "center",
-              "width": "100%",
-              "padding": "20px 0",
-              "color": "#232323"
-            },
-            ".subtitle": {
-              "position": "absolute",
-              "width": "100%",
-              "text-align": "center",
-              "color": "#ffffff",
-              "top": "100px"
-            },
-            ".stars": {
-              "position": "absolute",
-              "width": "100%",
-              "text-align": "center",
-              "color": "#ffffff",
-              "top": "140px"
-            },
-            ".cBadge1 .title": {
-              "background": "@cBadge1"
-            },
-            ".cBadge1 .subtitle:after": {
-              "color": "@cBadge1"
-            },
-            ".cBadge2 .title": {
-              "background": "@cBadge2"
-            },
-            ".cBadge2 .subtitle:after": {
-              "color": "@cBadge2"
-            },
-            ".cBadge3 .title": {
-              "background": "@cBadge3"
-            },
-            ".cBadge3 .subtitle:after": {
-              "color": "@cBadge3"
-            },
-            ".cBadge4 .title": {
-              "background": "@cBadge4"
-            },
-            ".cBadge4 .subtitle:after": {
-              "color": "@cBadge4"
+            "P": {
+              "text-align": "center"
             }
           },
-          "_customHTML": "<section class=\"features\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\"> \n        \n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n\n        <header>Badges</header>\n        <select title=\"Badges\" name=\"badgeAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"color\" name=\"cBadge1\" title=\"Badge 1\" value=\"#dc514e\">\n        <input type=\"color\" name=\"cBadge2\" title=\"Badge 2\" value=\"#2ecc71\" condition=\"badgeAmount > 1\">\n        <input type=\"color\" name=\"cBadge3\" title=\"Badge 3\" value=\"#95a5a6\" condition=\"badgeAmount > 2\">\n        <input type=\"color\" name=\"cBadge4\" title=\"Badge 4\" value=\"#f1c40f\" condition=\"badgeAmount > 3\">\n        <input type=\"color\" name=\"cBadgeBG\" title=\"Badge Background\" value=\"#2b2b2b\">\n        <input type=\"range\" title=\"Size\" name=\"badgeWidth\" min=\"100\" max=\"250\" step=\"1\" value=\"250\">\n        <input type=\"range\" title=\"Spacing\" name=\"badgeMargin\" min=\"0\" max=\"50\" step=\"1\" value=\"8\">\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Egunak eta Ordutegiak</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">Andoain</h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Para nacidas/os en 2009 y anteriores ponerse en contacto con el club</p>\n            </div>\n            <div class=\"p-3 pt-4 col-md-12 align-center\">\n              <div class=\"badge cBadge1\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 216 232\">\n                  <path fill=\"{{cBadgeBG}}\" d=\"M207,0C171.827,0.001,43.875,0.004,9.003,0c-5.619-0.001-9,3.514-9,9c0,28.23-0.006,151.375,0,169    c0.005,13.875,94.499,54,107.999,54S216,191.57,216,178V9C216,3.298,212.732,0,207,0z\"></path>\n                </svg>\n                <p class=\"title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".title\"><b>2012an eta <br>2011n&nbsp;</b>jaioak<br></p>\n                <p class=\"subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".subtitle\"><br>2 egun aukeran</p>\n                <p class=\"stars mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".stars\"><br>*17:00 a 18:25<br>*Covid19 egokitzapena<br></p>\n              </div>\n\n              <div class=\"badge cBadge2\" mbr-if=\"badgeAmount > 1\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 216 232\">\n                  <path fill=\"{{cBadgeBG}}\" d=\"M207,0C171.827,0.001,43.875,0.004,9.003,0c-5.619-0.001-9,3.514-9,9c0,28.23-0.006,151.375,0,169    c0.005,13.875,94.499,54,107.999,54S216,191.57,216,178V9C216,3.298,212.732,0,207,0z\"></path>\n                </svg>\n                <p class=\"title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".title\"><b>2010ean eta\n<br>2009an</b> jaioak<br></p>\n                <p class=\"subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".subtitle\"><br>3 egun aukeran<br></p>\n                <p class=\"stars mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".stars\"><br>*17:00 a 18:25<br>*Covid19 egokitzapena<br></p>\n              </div>\n\n              <div class=\"badge cBadge3\" mbr-if=\"badgeAmount > 2\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 216 232\">\n                  <path fill=\"{{cBadgeBG}}\" d=\"M207,0C171.827,0.001,43.875,0.004,9.003,0c-5.619-0.001-9,3.514-9,9c0,28.23-0.006,151.375,0,169    c0.005,13.875,94.499,54,107.999,54S216,191.57,216,178V9C216,3.298,212.732,0,207,0z\"></path>\n                </svg>\n                <p class=\"title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".title\"><b>2008ko</b>&nbsp;<br>mutilak<br></p>\n                <p class=\"subtitle mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".subtitle\"><br>3 egun aukeran<br></p>\n                <p class=\"stars mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".stars\"><br>*17:00 a 18:25<br>*Covid19 egokitzapena<br></p>\n              </div>\n\n              <div class=\"badge cBadge4\" mbr-if=\"badgeAmount > 3\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 216 232\">\n                  <path fill=\"{{cBadgeBG}}\" d=\"M207,0C171.827,0.001,43.875,0.004,9.003,0c-5.619-0.001-9,3.514-9,9c0,28.23-0.006,151.375,0,169    c0.005,13.875,94.499,54,107.999,54S216,191.57,216,178V9C216,3.298,212.732,0,207,0z\"></path>\n                </svg>\n                <p class=\"title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".title\"><b>Nes. 2009 eta -<br>Mut. 2007 eta -</b></p>\n                <p class=\"subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".subtitle\"><br>astelehenetik ostiralera bitarte, egunero<br></p>\n                <p class=\"stars mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".stars\"><br>*17:00 a 18:25\n<br>*Covid19 egokitzapena</p>\n              </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "Andoain",
+          "_name": "tabs1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"tabs content18\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"9\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Tabs</header>\n        <select title=\"Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"color\" name=\"tabsColor\" title=\"Color\" value=\"#000000\">\n        <input type=\"color\" name=\"activeColor\" title=\"Active Color\" value=\"#054d07\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#e1e9de\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle || showSubtitle\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    <b>Andoain</b></h3>\n                <h4 class=\"mbr-section-subtitle mb-0 mt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">Andoain</h4>\n            </div>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <ul class=\"nav nav-tabs mb-4\" role=\"tablist\">\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item first mbr-fonts-style\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-36_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>2012an jaioak</strong>\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-36_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>2011n jaioak</strong>\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-36_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>2010ean jaioak</strong>\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-36_tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>2009an jaioak + 2008ko mutilak</strong>\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-36_tab4\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <strong>2008ko neskak + 2007an eta aurrez jaioak</strong>\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-7\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            <b>Architecture</b>\n                        </a>\n                    </li>\n                </ul>\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">2 egun aukeran, 17:00-18:25 (aldagelen erabilpen tartea barne; 10'/15'x2)\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    2 egun aukeran, 17:00-18:25 (aldagelen erabilpen tartea barne; 10'/15'x2) </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">3 egun aukeran, 17:00-18:25 (aldagelen erabilpen tartea barne; 10'/15'x2)\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">3 egun aukeran, 17:00-18:25 (aldagelen erabilpen tartea barne; 10'/15'x2)</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Astelehenetik ostiralera egunero, 20:00-21:45 (aldagelen erabilpen tartea barne; 10'/15'x2)</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    Free Website Builder offers a huge collection of 2500+ website blocks, templates and\n                                    themes with thousands flexible options. Combine blocks from different themes to\n                                    create a unique mix.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "tabs1-36",
           "_isUserblock": true,
-          "_cid": "svoxeT7cki",
+          "_cid": "sgvJClOxdN",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
