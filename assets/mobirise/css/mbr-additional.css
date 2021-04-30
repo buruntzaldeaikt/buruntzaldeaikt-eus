@@ -11763,7 +11763,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-svRoNjqUU9 .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 8rem);
   }
 }
 .cid-svRoNjqUU9 .navbar.collapsed .dropdown-menu .dropdown-submenu {
