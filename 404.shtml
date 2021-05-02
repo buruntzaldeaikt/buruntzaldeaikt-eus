@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image:src" content="assets/images/errekorrak-meta.jpg">
-  <meta property="og:image" content="assets/images/errekorrak-meta.jpg">
-  <meta name="twitter:title" content="Taldeko Errekorrak eta Rankinak">
+  <meta name="twitter:image:src" content="assets/images/404.shtml-meta.png">
+  <meta property="og:image" content="assets/images/404.shtml-meta.png">
+  <meta name="twitter:title" content="Orria ez da aurkitu">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/bikt-121x121.png" type="image/x-icon">
-  <meta name="description" content="Ezagutu inoiz izan diren taldekide azkarrenak!">
+  <meta name="description" content="">
   
   
-  <title>Taldeko Errekorrak eta Rankinak</title>
+  <title>Orria ez da aurkitu</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -51,7 +51,7 @@
 <meta name="author" content="Buruntzaldea IKT">
 
 
-  <section class="menu cid-sgALdWK1bI" once="menu" id="menu1-44">
+  <section class="menu cid-shOgCKLDOZ" once="menu" id="menu1-5j">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container-fluid">
@@ -95,7 +95,7 @@
 
 </section>
 
-<section class="header1 cid-sgALdSZhSG mbr-fullscreen mbr-parallax-background" id="header1-41">
+<section class="header1 cid-shOgCHCcHB mbr-parallax-background" id="header1-5h">
 
     
 
@@ -103,24 +103,9 @@
 
     <div class="align-center container-fluid">
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-12">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><br><br><strong>TALDEKO ERREKORRAK ETA RANKINAK</strong></h1>
+            <div class="col-12 col-lg-9">
+                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><br><br></h1>
                 
-                
-                <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="errekorrak.html#errekorrak">ERREKORRAK</a> <a class="btn btn-primary display-4" href="errekorrak.html#rankinak">RANKINAK</a></div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="content4 cid-stjZ2uohis" id="errekorrak">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
-                    <strong>Taldeko Errekorrak</strong></h3>
                 
                 
             </div>
@@ -128,146 +113,29 @@
     </div>
 </section>
 
-<section class="content4 cid-stSGK9A9mb" id="content4-9f">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5"><em>
-                    25 metroko igerilekua</em></h4>
-                
-            </div>
-        </div>
-    </div>
-</section>
+<section class="content15 cid-shOhDysKCk" id="content15-5l">
 
-<section class="content11 cid-sgALdUzoRs" id="content11-42">
+    
+
     
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1V33Hy2i9KdM2nm_aWFad8WmqtMvSlGNO" target="_blank">p25 Emakumezkoak</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1By9trr66t-w8R0nx6j7Xj3l9CJzZCWyH" target="_blank">p25 Emak. Egokitua</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1VYc4ojl6HUCylfgbWd2hq6KDDemZm5R3" target="_blank">p25 Emak. Masterrak</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=15OH4TFY7EIfH-i-HNFvcaKX1_fKQSK_K" target="_blank">p25 Gizonezkoak</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1NRESczKxeqLE36UetRVsinwe6w6imfDn" target="_blank">p25 Gizon. Egokitua</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1wZ5UC9NUQBGrCep7PK4yTSZhrHZ08Lbn" target="_blank">p25 Gizon. Masterrak</a></div>
+            <div class="card col-md-12 col-lg-10">
+                <div class="card-wrapper">
+                    <div class="card-box align-left">
+                        <h4 class="card-title mbr-fonts-style mbr-white mb-3 display-2">
+                            <strong>404
+</strong><div><strong>Bila zabiltzan orria ez da aurkitu</strong></div></h4>
+                        
+                        <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="index.html">HASIERARA JOAN</a></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="content4 cid-stSGZwXDaL" id="content4-9g">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5"><em>50 metroko igerilekua</em></h4>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="content11 cid-sgANKVxj3I" id="content11-48">
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4" href="https://drive.google.com/open?id=10YxFqQry47Sw21AIKQ6bqEGOHcjNwZdg" target="_blank">p50 Emakumezkoak</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=176UwzF_O0hMkdwnlD1THTszrMBF2eQV1" target="_blank">p50 Emak. Egokitua</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1TfZ0VEbK0-G4Sbl2ov7Dh3mIbl1hsW_v" target="_blank">p50 Emak. Masterrak</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1BWye-cl91uD0rLlNf15MlQSiNUUY3IaT" target="_blank">p50 Gizonezkoak</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1z8k-CdrHmqli53sOg5e6SyhZM3HoZ-yT" target="_blank">p50 Gizon. Egokitua</a> <a class="btn btn-primary display-4" href="https://drive.google.com/open?id=1JgR3scwwIUUhnHprP1CZlDusLC7V6ShW" target="_blank">p50 Gizon. Masterrak</a></div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="content4 cid-stjZ9fJmL6" id="rankinak">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
-                    <strong>Absolutu mailako Rankinak</strong></h3>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="content4 cid-stSI1Od0HU" id="content4-9h">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5"><em>
-                    25 metroko igerilekua</em></h4>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="content11 cid-stk0OOP2X6" id="content11-9b">
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                <div class="mbr-section-btn align-center"><a class="btn btn-black display-4" href="https://drive.google.com/open?id=1ZyNdlB03jksKcMltPKIl3QrzUHVqqO1H" target="_blank">p25 Emakumezkoak LIBRE</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=14F3Qsfx_y8a9vEvK3qbPGLSBzWsOcaz6" target="_blank">p25 Emakumezkoak BIZKAR</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1QZS40qAuW-LUpv9Yecd9zLjMjTbX61WE" target="_blank">p25 Emakumezkoak BULAR</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1Qx8Cft-pLrzktD0_xasdJqpjuygneWYP" target="_blank">p25 Emakumezkoak TXIMELETA</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1FVNuxSwrCJfJpCNqODE6xGZFbh8l72tC" target="_blank">p25 Emakumezkoak ESTILOAK</a></div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="content11 cid-stk0PsWsR8" id="content11-9c">
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                <div class="mbr-section-btn align-center"><a class="btn btn-black display-4" href="https://drive.google.com/open?id=1IJgBLFDQh3Wuo94XRwjkmTYN87zCd3c_" target="_blank">p25 Gizonezkoak LIBRE</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1ACC5vLe6tohVQxOQoUri2Dk65U6ptMkt" target="_blank">p25 Gizonezkoak BIZKAR</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1m8pIsLvoWE-pWjVLXmp7igal09jKw4NL" target="_blank">p25 Gizonezkoak BULAR</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1V6x0fZV12UoULCYJpaKNzlN7cwraZ6WH" target="_blank">p25 Gizonezkoak TXIMELETA</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1FCC_h35NfIexJru2I8peuoN8ThCLGu9j" target="_blank">p25 Gizonezkoak ESTILOAK</a></div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="content4 cid-stSIxBkSE7" id="content4-9i">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="title col-md-12 col-lg-10">
-                
-                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-5"><em>50 metroko igerilekua</em></h4>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="content11 cid-stk0Q0DOkF" id="content11-9d">
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                <div class="mbr-section-btn align-center"><a class="btn btn-black display-4" href="https://drive.google.com/open?id=1FpG8IZFF5OtPTIdddAJu2OwAmKWyrzG1" target="_blank">p50 Emakumezkoak LIBRE</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=19d_lLfxg4qpOrJm9KsNoPbEiUcq_8VXD" target="_blank">p50 Emakumezkoak BIZKAR</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1aYWQ5dxuW5eFydESDmhJxFPEIZhv6KIY" target="_blank">p50 Emakumezkoak BULAR</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1yud6dJdufOq_IDMA3iUjzdEZZ_AZje_d" target="_blank">p50 Emakumezkoak TXIMELETA</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1pppksKTYMNmBDGtBWenbp39HlGoLOB9W" target="_blank">p50 Emakumezkoak ESTILOAK</a></div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="content11 cid-stk0QCd1R7" id="content11-9e">
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-12">
-                <div class="mbr-section-btn align-center"><a class="btn btn-black display-4" href="https://drive.google.com/open?id=19V9SfhAff4vGiMzGRp9QjpsVvuHA1V0x" target="_blank">p50 Gizonezkoak LIBRE</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1HIFire1dkb7qTgiNVbWQ-qjpDyWwHNvq" target="_blank">p50 Gizonezkoak BIZKAR</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1ZHQ3KYbU00i4QB4V-hheUwjpuz-CwJIU" target="_blank">p50 Gizonezkoak BULAR</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1zs45hqz23yvOtDMEA4yLxeA3-xhtIqHo" target="_blank">p50 Gizonezkoak TXIMELETA</a> <a class="btn btn-black display-4" href="https://drive.google.com/open?id=1x6PM6R_qRPCcjoMychaIy-Q7QwiUWQdP" target="_blank">p50 Gizonezkoak ESTILOAK</a></div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="footer4 cid-sgALe0LRnM" once="footers" id="footer4-46">
+<section class="footer4 cid-shOgCMCbRW" once="footers" id="footer4-5k">
 
     
     

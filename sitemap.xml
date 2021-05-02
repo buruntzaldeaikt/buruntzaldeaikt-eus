@@ -36,9 +36,6 @@
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/lan-poltsa.html</loc>
 	</url>
 	<url>
-		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/404.html</loc>
-	</url>
-	<url>
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/historia.html</loc>
 	</url>
 	<url>
@@ -55,5 +52,8 @@
 	</url>
 	<url>
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/2122aurreizenematea.html</loc>
+	</url>
+	<url>
+		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/404.shtml</loc>
 	</url>
 </urlset>
