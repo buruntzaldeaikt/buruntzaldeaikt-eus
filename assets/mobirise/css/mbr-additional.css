@@ -3587,6 +3587,40 @@ a {
 .cid-sgkgTomVPF .card-box {
   text-align: center;
 }
+.cid-sx0jcyItqU {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+.cid-sx0jcyItqU .counter-container ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 2.5rem;
+}
+.cid-sx0jcyItqU .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+  position: relative;
+  padding-left: 1rem;
+}
+.cid-sx0jcyItqU .counter-container ul li:before {
+  position: absolute;
+  left: -40px;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #054d07;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+  content: "✓";
+}
+.cid-sx0jcyItqU .mbr-section-title {
+  text-align: center;
+}
 .cid-sum1HSe0f6 {
   padding-top: 5rem;
   padding-bottom: 0rem;
