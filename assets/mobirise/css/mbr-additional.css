@@ -12217,123 +12217,111 @@ a {
     left: -1rem;
   }
 }
-.cid-svRoNfVcrA {
+.cid-shOgCHCcHB {
   padding-top: 3rem;
   padding-bottom: 0rem;
-  background-image: url("../../../assets/images/buruntzaldea-ikt-34473299073-o-2000x1333.jpg");
+  background-image: url("../../../assets/images/estua-1-2000x463.jpg");
 }
-.cid-svRoNfVcrA .mbr-section-title {
+.cid-shOgCHCcHB .mbr-section-title {
   text-align: center;
   color: #ffffff;
 }
-.cid-svRoNfVcrA .mbr-text,
-.cid-svRoNfVcrA .mbr-section-btn {
+.cid-shOgCHCcHB .mbr-text,
+.cid-shOgCHCcHB .mbr-section-btn {
   color: #ffffff;
   text-align: center;
 }
 @media (max-width: 991px) {
-  .cid-svRoNfVcrA .mbr-section-title,
-  .cid-svRoNfVcrA .mbr-section-btn,
-  .cid-svRoNfVcrA .mbr-text {
+  .cid-shOgCHCcHB .mbr-section-title,
+  .cid-shOgCHCcHB .mbr-section-btn,
+  .cid-shOgCHCcHB .mbr-text {
     text-align: center;
   }
 }
-.cid-svRpWT2be0 {
-  padding-top: 4rem;
-  padding-bottom: 0rem;
-  background-image: url("../../../assets/images/eus-eskolarrak-2000x1414.png");
+.cid-shOhDysKCk {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
 }
-.cid-svRpWT2be0 .nav-tabs .nav-item.open .nav-link:focus,
-.cid-svRpWT2be0 .nav-tabs .nav-link.active:focus {
-  outline: none;
-}
-.cid-svRpWT2be0 .nav-tabs {
-  flex-wrap: wrap;
-  border-bottom: 1px solid #054d07;
+.cid-shOhDysKCk .card-wrapper {
+  background: #e1e9de;
+  border-radius: 4px;
 }
 @media (max-width: 767px) {
-  .cid-svRpWT2be0 .nav-item {
-    width: 100%;
-    margin: 0;
+  .cid-shOhDysKCk .card-wrapper {
+    padding: 1rem;
   }
 }
-.cid-svRpWT2be0 .nav-tabs .nav-link {
-  transition: all .5s;
-  border: none;
-  border-bottom: 3px solid transparent;
-  border-radius: 0 !important;
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-shOhDysKCk .card-wrapper {
+    padding: 2rem;
+  }
 }
-.cid-svRpWT2be0 .nav-tabs .nav-link:not(.active) {
-  color: #232323;
+@media (min-width: 992px) {
+  .cid-shOhDysKCk .card-wrapper {
+    padding: 4rem;
+  }
 }
-.cid-svRpWT2be0 .nav-tabs .nav-item {
-  margin-right: 1.5rem;
+.cid-shOhDysKCk .mbr-text,
+.cid-shOhDysKCk .mbr-section-btn {
+  color: #ffffff;
 }
-.cid-svRpWT2be0 .nav-link,
-.cid-svRpWT2be0 .nav-link.active {
-  padding: 1rem 0;
-  background-color: transparent;
-}
-.cid-svRpWT2be0 .nav-tabs .nav-link.active {
+.cid-shOhDysKCk .card-title,
+.cid-shOhDysKCk .card-box {
+  text-align: left;
   color: #054d07;
-  border-bottom: 3px solid #054d07;
 }
-.cid-svRpWT2be0 H4 {
+.cid-shOhDysKCk .card-title,
+.cid-shOhDysKCk .card-box DIV {
   text-align: center;
 }
-.cid-svRpWT2be0 H3 {
-  text-align: center;
-}
-.cid-svRpWT2be0 p {
-  text-align: justify;
-}
-.cid-svRoNoa6eH {
+.cid-shOgCMCbRW {
   padding-top: 1rem;
   padding-bottom: 0rem;
   background-color: #232323;
 }
-.cid-svRoNoa6eH .media-wrap {
+.cid-shOgCMCbRW .media-wrap {
   padding: 0;
 }
 @media (max-width: 991px) {
-  .cid-svRoNoa6eH .media-wrap {
+  .cid-shOgCMCbRW .media-wrap {
     margin-bottom: 1rem;
   }
 }
 @media (max-width: 767px) {
-  .cid-svRoNoa6eH .row {
+  .cid-shOgCMCbRW .row {
     text-align: center;
   }
-  .cid-svRoNoa6eH .row > div {
+  .cid-shOgCMCbRW .row > div {
     margin: auto;
   }
-  .cid-svRoNoa6eH .social-row {
+  .cid-shOgCMCbRW .social-row {
     justify-content: center;
   }
 }
-.cid-svRoNoa6eH .social-row {
+.cid-shOgCMCbRW .social-row {
   display: flex;
   flex-wrap: wrap;
 }
-.cid-svRoNoa6eH .list {
+.cid-shOgCMCbRW .list {
   list-style: none;
   padding-left: 0;
   color: #ffffff;
 }
 @media (max-width: 991px) {
-  .cid-svRoNoa6eH .list {
+  .cid-shOgCMCbRW .list {
     margin-bottom: 2rem;
   }
 }
 @media (min-width: 992px) {
-  .cid-svRoNoa6eH .list {
+  .cid-shOgCMCbRW .list {
     margin-bottom: 0rem;
   }
 }
-.cid-svRoNoa6eH .mbr-text {
+.cid-shOgCMCbRW .mbr-text {
   color: #bbbbbb;
 }
-.cid-svRoNoa6eH .soc-item {
+.cid-shOgCMCbRW .soc-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12345,11 +12333,11 @@ a {
   height: 2.5rem;
   width: 2.5rem;
 }
-.cid-svRoNoa6eH .mbr-iconfont {
+.cid-shOgCMCbRW .mbr-iconfont {
   color: black;
 }
 @media (max-width: 991px) {
-  .cid-svRoNoa6eH div > *:last-child {
+  .cid-shOgCMCbRW div > *:last-child {
     margin-top: 0 !important;
   }
 }
@@ -12695,111 +12683,123 @@ a {
     left: -1rem;
   }
 }
-.cid-shOgCHCcHB {
+.cid-svRoNfVcrA {
   padding-top: 3rem;
   padding-bottom: 0rem;
-  background-image: url("../../../assets/images/estua-1-2000x463.jpg");
+  background-image: url("../../../assets/images/buruntzaldea-ikt-34473299073-o-2000x1333.jpg");
 }
-.cid-shOgCHCcHB .mbr-section-title {
+.cid-svRoNfVcrA .mbr-section-title {
   text-align: center;
   color: #ffffff;
 }
-.cid-shOgCHCcHB .mbr-text,
-.cid-shOgCHCcHB .mbr-section-btn {
+.cid-svRoNfVcrA .mbr-text,
+.cid-svRoNfVcrA .mbr-section-btn {
   color: #ffffff;
   text-align: center;
 }
 @media (max-width: 991px) {
-  .cid-shOgCHCcHB .mbr-section-title,
-  .cid-shOgCHCcHB .mbr-section-btn,
-  .cid-shOgCHCcHB .mbr-text {
+  .cid-svRoNfVcrA .mbr-section-title,
+  .cid-svRoNfVcrA .mbr-section-btn,
+  .cid-svRoNfVcrA .mbr-text {
     text-align: center;
   }
 }
-.cid-shOhDysKCk {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
+.cid-svRpWT2be0 {
+  padding-top: 4rem;
+  padding-bottom: 0rem;
+  background-image: url("../../../assets/images/eus-eskolarrak-2000x1414.png");
 }
-.cid-shOhDysKCk .card-wrapper {
-  background: #e1e9de;
-  border-radius: 4px;
+.cid-svRpWT2be0 .nav-tabs .nav-item.open .nav-link:focus,
+.cid-svRpWT2be0 .nav-tabs .nav-link.active:focus {
+  outline: none;
+}
+.cid-svRpWT2be0 .nav-tabs {
+  flex-wrap: wrap;
+  border-bottom: 1px solid #054d07;
 }
 @media (max-width: 767px) {
-  .cid-shOhDysKCk .card-wrapper {
-    padding: 1rem;
+  .cid-svRpWT2be0 .nav-item {
+    width: 100%;
+    margin: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .cid-shOhDysKCk .card-wrapper {
-    padding: 2rem;
-  }
+.cid-svRpWT2be0 .nav-tabs .nav-link {
+  transition: all .5s;
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 0 !important;
 }
-@media (min-width: 992px) {
-  .cid-shOhDysKCk .card-wrapper {
-    padding: 4rem;
-  }
+.cid-svRpWT2be0 .nav-tabs .nav-link:not(.active) {
+  color: #232323;
 }
-.cid-shOhDysKCk .mbr-text,
-.cid-shOhDysKCk .mbr-section-btn {
-  color: #ffffff;
+.cid-svRpWT2be0 .nav-tabs .nav-item {
+  margin-right: 1.5rem;
 }
-.cid-shOhDysKCk .card-title,
-.cid-shOhDysKCk .card-box {
-  text-align: left;
+.cid-svRpWT2be0 .nav-link,
+.cid-svRpWT2be0 .nav-link.active {
+  padding: 1rem 0;
+  background-color: transparent;
+}
+.cid-svRpWT2be0 .nav-tabs .nav-link.active {
   color: #054d07;
+  border-bottom: 3px solid #054d07;
 }
-.cid-shOhDysKCk .card-title,
-.cid-shOhDysKCk .card-box DIV {
+.cid-svRpWT2be0 H4 {
   text-align: center;
 }
-.cid-shOgCMCbRW {
+.cid-svRpWT2be0 H3 {
+  text-align: center;
+}
+.cid-svRpWT2be0 p {
+  text-align: justify;
+}
+.cid-svRoNoa6eH {
   padding-top: 1rem;
   padding-bottom: 0rem;
   background-color: #232323;
 }
-.cid-shOgCMCbRW .media-wrap {
+.cid-svRoNoa6eH .media-wrap {
   padding: 0;
 }
 @media (max-width: 991px) {
-  .cid-shOgCMCbRW .media-wrap {
+  .cid-svRoNoa6eH .media-wrap {
     margin-bottom: 1rem;
   }
 }
 @media (max-width: 767px) {
-  .cid-shOgCMCbRW .row {
+  .cid-svRoNoa6eH .row {
     text-align: center;
   }
-  .cid-shOgCMCbRW .row > div {
+  .cid-svRoNoa6eH .row > div {
     margin: auto;
   }
-  .cid-shOgCMCbRW .social-row {
+  .cid-svRoNoa6eH .social-row {
     justify-content: center;
   }
 }
-.cid-shOgCMCbRW .social-row {
+.cid-svRoNoa6eH .social-row {
   display: flex;
   flex-wrap: wrap;
 }
-.cid-shOgCMCbRW .list {
+.cid-svRoNoa6eH .list {
   list-style: none;
   padding-left: 0;
   color: #ffffff;
 }
 @media (max-width: 991px) {
-  .cid-shOgCMCbRW .list {
+  .cid-svRoNoa6eH .list {
     margin-bottom: 2rem;
   }
 }
 @media (min-width: 992px) {
-  .cid-shOgCMCbRW .list {
+  .cid-svRoNoa6eH .list {
     margin-bottom: 0rem;
   }
 }
-.cid-shOgCMCbRW .mbr-text {
+.cid-svRoNoa6eH .mbr-text {
   color: #bbbbbb;
 }
-.cid-shOgCMCbRW .soc-item {
+.cid-svRoNoa6eH .soc-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12811,11 +12811,11 @@ a {
   height: 2.5rem;
   width: 2.5rem;
 }
-.cid-shOgCMCbRW .mbr-iconfont {
+.cid-svRoNoa6eH .mbr-iconfont {
   color: black;
 }
 @media (max-width: 991px) {
-  .cid-shOgCMCbRW div > *:last-child {
+  .cid-svRoNoa6eH div > *:last-child {
     margin-top: 0 !important;
   }
 }
