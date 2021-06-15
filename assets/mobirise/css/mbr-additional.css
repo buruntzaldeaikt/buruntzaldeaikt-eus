@@ -12704,54 +12704,52 @@ a {
     text-align: center;
   }
 }
-.cid-svRpWT2be0 {
-  padding-top: 4rem;
-  padding-bottom: 0rem;
-  background-image: url("../../../assets/images/eus-eskolarrak-2000x1414.png");
+.cid-sAoq0Eo2il {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: justify;
+  background-color: #ffffff;
 }
-.cid-svRpWT2be0 .nav-tabs .nav-item.open .nav-link:focus,
-.cid-svRpWT2be0 .nav-tabs .nav-link.active:focus {
+.cid-sAoq0Eo2il .nav-tabs .nav-item.open .nav-link:focus,
+.cid-sAoq0Eo2il .nav-tabs .nav-link.active:focus {
   outline: none;
 }
-.cid-svRpWT2be0 .nav-tabs {
+.cid-sAoq0Eo2il .nav-tabs {
   flex-wrap: wrap;
   border-bottom: 1px solid #054d07;
 }
 @media (max-width: 767px) {
-  .cid-svRpWT2be0 .nav-item {
+  .cid-sAoq0Eo2il .nav-item {
     width: 100%;
     margin: 0;
   }
 }
-.cid-svRpWT2be0 .nav-tabs .nav-link {
+.cid-sAoq0Eo2il .nav-tabs .nav-link {
   transition: all .5s;
   border: none;
   border-bottom: 3px solid transparent;
   border-radius: 0 !important;
 }
-.cid-svRpWT2be0 .nav-tabs .nav-link:not(.active) {
-  color: #232323;
+.cid-sAoq0Eo2il .nav-tabs .nav-link:not(.active) {
+  color: #000000;
 }
-.cid-svRpWT2be0 .nav-tabs .nav-item {
+.cid-sAoq0Eo2il .nav-tabs .nav-item {
   margin-right: 1.5rem;
 }
-.cid-svRpWT2be0 .nav-link,
-.cid-svRpWT2be0 .nav-link.active {
+.cid-sAoq0Eo2il .nav-link,
+.cid-sAoq0Eo2il .nav-link.active {
   padding: 1rem 0;
   background-color: transparent;
 }
-.cid-svRpWT2be0 .nav-tabs .nav-link.active {
+.cid-sAoq0Eo2il .nav-tabs .nav-link.active {
   color: #054d07;
   border-bottom: 3px solid #054d07;
 }
-.cid-svRpWT2be0 H4 {
+.cid-sAoq0Eo2il H4 {
   text-align: center;
 }
-.cid-svRpWT2be0 H3 {
+.cid-sAoq0Eo2il H3 {
   text-align: center;
-}
-.cid-svRpWT2be0 p {
-  text-align: justify;
 }
 .cid-svRoNoa6eH {
   padding-top: 1rem;
