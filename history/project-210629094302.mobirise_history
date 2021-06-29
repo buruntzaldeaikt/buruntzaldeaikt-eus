@@ -53,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 406,
+    "uniqCompNum": 402,
     "versionPublish": "5.3.5",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -62,6 +62,18 @@
     "sitemapSwitcher": true,
     "siteUrl": "https://www.buruntzaldeaikt.eus/sitemap.xml",
     "sitemapSwitcherAuto": "on",
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#054d07",
+      "underlineLink": false,
+      "opacity": "91",
+      "opacityOverlay": "72",
+      "text": "Webgune honek cookiak erabiltzen ditu, nabigazio esperientzia hobea eskaintzeko asmoz. Irakurri gure <a href='https://www.buruntzaldeaikt.eus/lege-oharra.html'>Lege Oharra, Baldintza Orokorrak eta Pribatutasun Politika</a>.",
+      "textButton": "Ados nago"
+    },
     "gdpr": {
       "colorText": "#353535",
       "colorLink": "#054d07",
@@ -96,11 +108,10 @@
     "global_header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-SN024HL996\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-SN024HL996');\n</script>\n",
     "global_before_html": "",
     "global_after_body": "<meta name=\"title\" content=\"Buruntzaldea IKT Igeriketa\">\n<meta name=\"description\" content=\"Buruntzaldea IKT igeriketa taldea da, Lasarte-Orian eta Andoainen jarduera burutzen duena. Sorrera 2007an izan zuen eta gaur egun 120 igerilari baino gehiago biltzen ditu. Taldearen jarduerak igeriketa eskolarra, igeriketa federatua, igeriketa egokitua, master igeriketa, parte-hartze igeriketa eta triatloia dira.\">\n<meta name=\"keywords\" content=\"BIKT, Buruntzaldea, buruntzaldea, bikt, igeriketa, lasarte, lasarte-oria, andoain, ikasi, talde, taldea, kluba, eskolarra, federatua, egokitua, parte-hartzea, parte-hartze, master, masterrak, bolondresak, xedea, ikuspegia, balioak, triatloia, estiloak, egutegia, errekorrak, taldeko, albisteak, bloga, covid19, egunerokoa, 2020/2021, deialdiak, hitzorduak, 696506632, info@buruntzaldeaikt.eus, lan poltsa, brnpwr, BRNPWR, bular, bizkar, krol, estilo, librea, tximeleta, lau\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"revisit-after\" content=\"7 days\">\n<meta name=\"author\" content=\"Buruntzaldea IKT\">\n\n",
-    "mbrsiteDomain": "fxalxqcpz8",
+    "mbrsiteDomain": "eaidmksiqd",
     "witsec-language": "eu",
     "publishType": "local",
-    "publishPath": "@PROJECT_PATH@",
-    "cookiesAlert": false
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -18114,13 +18125,13 @@
           },
           "_name": "content5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><br>Cookie Politika</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Zer da cookie bat?\n<br>Cookie bat web zerbitzari batek erabiltzailearen euskarrian (ordenagailua, mugikorra, etab.) utz dezakeen testu fitxategia bat da, berriz konektatzen denean identifikatu ahal izateko. Cookie-ak nabigazioa errazten dute eta abantaila asko ekartzen dituzte. Esate baterako, erabiltzailearen saioa kudeatzeko edo web gunearen edukiak erabiltzailearen gustuetara egokitzeko. Cookie-ak saiokoak edo iraunkorrak izan daitezke. Saioko cookie-ak web gunea uztean urratzen dira, berriz, cookie iraunkorrak ordenagailuan data zehatz bat arte mantentzen dira.\n<br>\n<br>\n<br>Zein cookie mota erabiltzen ditu web gune honek?\n<br>Web gune honek cookie mota desberdinak erabiltzen ditu, jarraian zehazten diren helburu desberdinekin:\n<br>\n<br>Cookie teknikoak: aukera ematen dutenak web gunean nabigatzeko eta bertako aukera eta zerbitzuak baliatzeko, esate baterako, saioa identifikatzea, eskari baten atal desberdinak gogoratzea, segurtasun elementuak erabiltzea, edukiak sare sozialen bidez partekatzea, e.a.\n<br>\n<br>Analisi cookie-ak: aukera ematen dutenak web guneko erabiltzaileen portaera estatistikoki neurtzeko eta aztertzeko (esate baterako Google Analytics erabiliz), horrela web gunea erabiltzaileen nabigaziora egoki eta hobeto daiteke.\n<br>\n<br>\n<br>Webgune honetan erabiltzen ditugun cookie analitikoak:\n<br>\n<br>Cookiea Iraupena\tMota\tHelburu\n<br>_ga\t2 urte\tHirugarrenenak (Google Analytics)\tWebguneko erabiltzaileak desberdindu, identifikatzaile aleatorio bakar bat egokituz.\n<br>_gat\t1-10 minutu\t\tWebgunerako eskaerak mugatu, Google Analyticsera datu bilketa kudeatu.\n<br>_gid\t24 ordu\t\tWebguneko erabiltzaileak desberdindu, identifikatzaile aleatorio bakar bat egokituz.\n<br>\n<br>\n<br>Nola desaktibatu daitezke cookie-ak?\n<br>Nabigatzaile gehienek cookie-ak automatikoki onartzen dituzten arren, erabiltzaileak bere ordenagailuan nabigatzailearen konfigurazioa aldatu dezake. Erabiltzaileak aukera du cookie-ak baimentzeko, blokeatzeko edo ezabatzeko. Horretarako, nabigatzaileek ematen dituzten cookie-en tratamendurako konfigurazio-aukerak kontsultatu behar dituzu.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sBI3nHVAWH",
+          "_customHTML": "<section class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    <br>Cookie politika</h4>\n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><b><i>Zer da cookie bat?\n</i></b><br>Cookie bat web zerbitzari batek erabiltzailearen euskarrian (ordenagailua, mugikorra, etab.) utz dezakeen testu fitxategia bat da, berriz konektatzen denean identifikatu ahal izateko. Cookie-ak nabigazioa errazten dute eta abantaila asko ekartzen dituzte. Esate baterako, erabiltzailearen saioa kudeatzeko edo web gunearen edukiak erabiltzailearen gustuetara egokitzeko. Cookie-ak saiokoak edo iraunkorrak izan daitezke. Saioko cookie-ak web gunea uztean urratzen dira, berriz, cookie iraunkorrak ordenagailuan data zehatz bat arte mantentzen dira.<br>\n<br><b><i>Zein cookie mota erabiltzen ditu web gune honek?\n</i></b><br>Web gune honek cookie mota desberdinak erabiltzen ditu, jarraian zehazten diren helburu desberdinekin:\n<br>\n<br><i>Cookie teknikoak:</i> aukera ematen dutenak web gunean nabigatzeko eta bertako aukera eta zerbitzuak baliatzeko, esate baterako, saioa identifikatzea, eskari baten atal desberdinak gogoratzea, segurtasun elementuak erabiltzea, edukiak sare sozialen bidez partekatzea, e.a.\n<br>\n<br><i>Analisi cookie-ak:</i> aukera ematen dutenak web guneko erabiltzaileen portaera estatistikoki neurtzeko eta aztertzeko (esate baterako Google Analytics erabiliz), horrela web gunea erabiltzaileen nabigaziora egoki eta hobeto daiteke.\n<br><br><i><br></i><script id=\"CookieDeclaration\" src=\"https://consent.cookiebot.com/e1a0ee0e-3af1-48fa-b047-05d06ceb1572/cd.js\" type=\"text/javascript\" async></script><br><i>Webgune honetan erabiltzen ditugun cookie analitikoak:\n</i><br>\n<br>Cookie\tIraupena\tMota\tHelburu\n<br>_ga\t2 urte\tHirugarrenenak (Google Analytics)\tWebguneko erabiltzaileak desberdindu, identifikatzaile aleatorio bakar bat egokituz.\n<br>_gat\t1-10 minutu\t\tWebgunerako eskaerak mugatu, Google Analyticsera datu bilketa kudeatu.\n<br>_gid\t24 ordu\t\tWebguneko erabiltzaileak desberdindu, identifikatzaile aleatorio bakar bat egokituz.\n<br>\n<br>\n<br><b><i>Nola desaktibatu daitezke cookie-ak?\n</i></b><br>Nabigatzaile gehienek cookie-ak automatikoki onartzen dituzten arren, erabiltzaileak bere ordenagailuan nabigatzailearen konfigurazioa aldatu dezake. Erabiltzaileak aukera du cookie-ak baimentzeko, blokeatzeko edo ezabatzeko. Horretarako, nabigatzaileek ematen dituzten cookie-en tratamendurako konfigurazio-aukerak kontsultatu behar dituzu.&nbsp;<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sBHOUt2RTd",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "content5-b7"
+          "_anchor": "content5-b3"
         },
         {
           "alias": false,
@@ -18192,12 +18203,12 @@
           "_name": "footer4",
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section class=\"footer4\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Logo Size\" name=\"logoSize\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"4\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-6 col-lg-3\">\n                <div class=\"media-wrap col-md-{{4*logoSize}} col-12\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/bikt-121x121.png\" alt=\"Buruntzaldea IKT\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\"><b>Harremanetarako</b></h5>\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\">\n                    Whatsapp-a: <a href=\"https://wa.me/34696506632\" class=\"text-white\">696 506 632</a><br>Email-a: <a href=\"mailto:info@buruntzaldeaikt.eus\" class=\"text-white\">info@buruntzaldeaikt.eus</a><br>Telefonoa: <a href=\"tel:+34-696506632\" class=\"text-white\">696 506 632</a></p>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showTitle && showSocial\">\n                    <b>Jarrai gaitzazu</b></h5>\n                <div class=\"social-row display-7\" mbr-if=\"showSocial\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://facebook.com/buruntzaldeaikt\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                        <a href=\"https://twitter.com/buruntzaldeaikt.eus\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-twitter socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                        <a href=\"https://instagram.com/buruntzaldeaikt\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                        <a href=\"https://youtube.com/c/buruntzaldeaiktEUS\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\">\n                    <b>Lege Oharra eta Pribatutasun Politika</b><br></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"lege-oharra.html\" class=\"text-white text-primary\">Pribatutasun politika</a></li><li class=\"mbr-text item-wrap\"><a href=\"cookiepolitika.html\" class=\"text-white\">Cookien Politika</a></li>\n                </ul>\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\"><br><b>Kluba</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"lan-poltsa.html\" class=\"text-white\">Lan poltsa</a></li><li class=\"mbr-text item-wrap\"><a href=\"bolondresak.html\" class=\"text-white\">Bolondresak</a></li><li class=\"mbr-text item-wrap\">Xedea, Ikuspegia eta Balioak</li><li class=\"mbr-text item-wrap\"><a href=\"assets/files/Patrozinio-Dosierra.pdf\" class=\"text-white text-primary\" target=\"_blank\">Patrozinio Dosierra</a></li><li class=\"mbr-text item-wrap\"><a href=\"historia.html\" class=\"text-white\">Historia apur bat</a></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-2\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\"><b>Beste webguneak</b>\n                </h5><ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.denda.buruntzaldeaikt.eus/\" class=\"text-white text-primary\">Online denda</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://www.lasartekosaria.buruntzaldeaikt.eus/\" class=\"text-white\" target=\"_blank\">Lasarteko Saria</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://albisteakbikt.blogspot.com\" class=\"text-white text-primary\" target=\"_blank\">Buruntzaldea IKT blog-a</a></li><li class=\"mbr-text item-wrap\"><a href=\"https://dleht.buruntzaldeaikt.eus\" class=\"text-white\" target=\"_blank\">DLEHT</a></li><li class=\"mbr-text item-wrap\"><br></li><li class=\"mbr-text item-wrap\"><b><a href=\"dohaintzak.html\" class=\"text-white text-primary\">Dohaintzak eta ekarpen propioak</a></b></li></ul></div>\n            <div class=\"col-12 mt-4\" mbr-if=\"showCopyright\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style copyright align-center\" mbr-theme-style=\"display-4\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2025 Oria-Urumeako Buruntzaldea Igeriketa Kirol Taldea (G20958682) - All Rights Reserved<br>Beko kale bidea 1, 2. solairua · 20160 Lasarte-Oria, Gipuzkoa</p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sBI3nJ4KLi",
+          "_cid": "sBHOUtIyIu",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
           "_params": {},
-          "_anchor": "footer4-b8"
+          "_anchor": "footer4-b4"
         },
         {
           "_name": "menu1-s48OLK6784",
@@ -18588,12 +18599,109 @@
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_isUserblock": true,
-          "_cid": "sBI3nL6eGq",
+          "_cid": "sBHOUvhaPQ",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
           "_params": {},
-          "_anchor": "menu1-s48OLK6784-b9"
+          "_anchor": "menu1-s48OLK6784-b5"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            ".container-table": {
+              "margin": "0 auto"
+            },
+            ".scroll": {
+              "overflow-x": "auto",
+              "padding": "0"
+            },
+            ".dataTables_wrapper": {
+              "display": "block",
+              ".search": {
+                "margin-bottom": ".5rem"
+              },
+              ".table": {
+                "overflow-x": "auto"
+              }
+            },
+            "table": {
+              "width": "100% !important",
+              "margin-top": "6px",
+              "border": "1px solid @tbColor",
+              "margin-bottom": "0",
+              "th": {
+                "border-top": "none",
+                "transition": "all .2s",
+                "border-bottom": "none",
+                "&:hover": {
+                  "background": "@tbColor",
+                  "color": "contrast(@tbColor)"
+                }
+              },
+              "td": {
+                "border-top": "1px solid @tbColor"
+              },
+              "&.table": {
+                "& when (@tbBackground)": {
+                  "background": "@tbBgColor"
+                }
+              }
+            },
+            ".dataTables_filter": {
+              "text-align": "right",
+              "margin-bottom": ".5rem",
+              "label": {
+                "display": "inline",
+                "white-space": "normal !important"
+              },
+              "input": {
+                "display": "inline",
+                "width": "auto",
+                "margin-left": ".5rem",
+                "border-radius": "100px",
+                "padding-left": "1rem"
+              }
+            },
+            ".dataTables_info": {
+              "padding-bottom": "1rem",
+              "padding-top": "1rem",
+              "white-space": "normal !important"
+            },
+            "@media (max-width: 992px)": {
+              ".dataTables_filter": {
+                "text-align": "center"
+              }
+            },
+            "@media (max-width: 350px)": {
+              ".dataTables_filter": {
+                "text-align": "center",
+                "input": {
+                  "width": "100% !important",
+                  "margin-left": "0 !important"
+                }
+              }
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">  <mbr-parameters>  <!-- Block parameters controls (Blue \"Gear\" panel) -->    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>    <input type=\"range\" inline title=\"Columns\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"4\">    <input type=\"range\" inline title=\"Rows\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"4\">    <input type=\"color\" title=\"Table Border Color\" name=\"tbColor\" value=\"#cccccc\">    <input type=\"checkbox\" title=\"Table Background\" name=\"tbBackground\" checked>    <input type=\"color\" title=\"Table Background Color\" name=\"tbBgColor\" value=\"#ffffff\" condition=\"tbBackground\">    <input type=\"checkbox\" title=\"Search\" name=\"isSearch\" checked>    <fieldset type=\"background\" name=\"bg\" parallax>      <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>      <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected>      <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">    </fieldset>    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">  <!-- End block parameters -->  </mbr-parameters>  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">  </div>  <div class=\"container container-table\">      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">          Table      </h2>      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">            Click blue \"Gear\" icon in the top right corner to hide/show search and info, change the the table background and other parameters.  In browser click on the table head to sort the table, use search to filter the table.           </h3>      <div class=\"table-wrapper\">        <div class=\"container\">          <div class=\"row search\" mbr-if=\"isSearch\">            <div class=\"col-md-6\"></div>            <div class=\"col-md-6\">                <div class=\"dataTables_filter\">                  <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\">Search:</label>                  <input class=\"form-control input-sm\" disabled>                </div>            </div>          </div>        </div>        <div class=\"container scroll\">          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\">            <thead>              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\" data-sortable=\"false\">                      NAME</th>                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\" data-sortable=\"false\">                      AGE</th>                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\" data-sortable=\"false\">                      DATE</th>                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\" data-sortable=\"false\">                      SALARY</th>              </tr>            </thead>            <tbody mbr-list mbr-list-grow=\"tableRows\">              <tr mbr-list mbr-list-grow=\"tableColumns\">                 <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Jeanna Schmal</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">44</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2016-10-17</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">$317.000</td>              </tr>              <tr mbr-list mbr-list-grow=\"tableColumns\">                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Caren Rials</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">35</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2013-04-12</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">$445.500</td>              </tr>              <tr mbr-list mbr-list-grow=\"tableColumns\">                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Leon Rogol</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">66</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2016-05-22</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">$152.558</td>              </tr>              <tr mbr-list mbr-list-grow=\"tableColumns\">                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Shala Barrera</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">70</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2016-05-15</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">$459.146</td>              </tr>            </tbody>          </table>        </div>        <div class=\"container table-info-container\">          <div class=\"row info\" mbr-if=\"isSearch\">            <div class=\"col-md-6\">              <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\">                <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">Showing</span>                <span class=\"inactive infoRows\"></span>                <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">entries</span>                <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(filtered from</span>                <span class=\"inactive infoRows\"></span>                <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\"> total entries)</span>              </div>            </div>            <div class=\"col-md-6\"></div>          </div>        </div>      </div>    </div></section>\n",
+          "_cid": "C3s27rjYE4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-C3s27rjYE4"
         }
       ]
     }
