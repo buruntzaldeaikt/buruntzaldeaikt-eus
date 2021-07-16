@@ -5113,8 +5113,6 @@
           "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#eaf4e7\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n                <iframe id=\"if\" src=\"https://albisteakbikt.blogspot.com/\" frameborder=\"0\" scrolling=\"yes\" seamless=\"seamless\" style=\"display:block; width:100vw; height:100vh;\"></iframe>\n</section>",
           "_cid": "sgAyZky5FO",
           "_anchor": "custom-html-3u",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
