@@ -98,7 +98,9 @@
     "global_after_body": "<meta name=\"title\" content=\"Buruntzaldea IKT Igeriketa\">\n<meta name=\"description\" content=\"Buruntzaldea IKT igeriketa taldea da, Lasarte-Orian eta Andoainen jarduera burutzen duena. Sorrera 2007an izan zuen eta gaur egun 120 igerilari baino gehiago biltzen ditu. Taldearen jarduerak igeriketa eskolarra, igeriketa federatua, igeriketa egokitua, master igeriketa, parte-hartze igeriketa eta triatloia dira.\">\n<meta name=\"keywords\" content=\"BIKT, Buruntzaldea, buruntzaldea, bikt, igeriketa, lasarte, lasarte-oria, andoain, ikasi, talde, taldea, kluba, eskolarra, federatua, egokitua, parte-hartzea, parte-hartze, master, masterrak, bolondresak, xedea, ikuspegia, balioak, triatloia, estiloak, egutegia, errekorrak, taldeko, albisteak, bloga, covid19, egunerokoa, 2020/2021, deialdiak, hitzorduak, 696506632, info@buruntzaldeaikt.eus, lan poltsa, brnpwr, BRNPWR, bular, bizkar, krol, estilo, librea, tximeleta, lau\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"revisit-after\" content=\"7 days\">\n<meta name=\"author\" content=\"Buruntzaldea IKT\">\n\n",
     "mbrsiteDomain": "yl0nzf2yyc",
     "witsec-language": "eu",
-    "cookiesAlert": false
+    "cookiesAlert": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -5113,12 +5115,12 @@
           "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\"><iframe src=\"https://albisteakbikt.blogspot.com/\" frameborder=\"0\" scrolling=\"yes\" seamless=\"seamless\" style=\"display:block; width:100vw; height:100vh;\"></iframe></h2>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sDGMWRqsXt",
           "_anchor": "custom-html-bi",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_name": "menu1-s48OLK6784",
