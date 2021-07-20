@@ -4803,6 +4803,20 @@ a {
   padding-bottom: 90px;
   background-color: #efefef;
 }
+.cid-sDHtA1XSHk .wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+.cid-sDHtA1XSHk .wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
 .cid-sBIdkFjx8t {
   padding-top: 1rem;
   padding-bottom: 0rem;
