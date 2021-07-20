@@ -4456,15 +4456,6 @@ a {
     margin-top: 0 !important;
   }
 }
-.cid-sDGMWRqsXt {
-  padding-top: 60px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-sDGMWRqsXt .mbr-section {
-  text-align: center;
-  color: #fff;
-}
 .cid-syfClBrZIo {
   z-index: 1000;
   width: 100%;
@@ -4806,6 +4797,11 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-sDHtA1XSHk {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
 }
 .cid-sBIdkFjx8t {
   padding-top: 1rem;
