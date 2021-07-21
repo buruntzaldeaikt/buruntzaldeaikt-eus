@@ -3859,145 +3859,78 @@ a {
 .cid-sgvD7vAJFd .mbr-section-subtitle {
   text-align: justify;
 }
-.cid-svovoMmruX {
-  padding-top: 75px;
+.cid-sDLL97w6Gk {
+  padding-top: 90px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-svovoMmruX .mbr-text {
-  color: #767676;
+.cid-sDLL97w6Gk * {
+  box-sizing: border-box;
 }
-.cid-svovoMmruX h4 {
+.cid-sDLL97w6Gk body {
+  margin: 0;
+  font-family: Jost;
+  padding: 20px;
+}
+.cid-sDLL97w6Gk .column {
+  float: left;
+  width: 16.66%;
+  padding: 50px;
   text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
 }
-.cid-svovoMmruX p {
-  text-align: center;
+.cid-sDLL97w6Gk .containerTab {
+  padding: 20px;
+  color: black;
 }
-.cid-svovoMmruX .badge {
-  position: relative;
-  width: 250px;
-  display: inline-block;
-  margin: 0 8px 8px 8px;
+.cid-sDLL97w6Gk .row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.cid-svovoMmruX .badge svg {
-  width: 250px;
+.cid-sDLL97w6Gk .closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
-.cid-svovoMmruX .title {
-  position: absolute;
-  top: -28px;
-  border-radius: 8px 8px 0 0;
-  text-align: center;
-  width: 100%;
-  padding: 20px 0;
-  color: #232323;
-}
-.cid-svovoMmruX .subtitle {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  color: #ffffff;
-  top: 100px;
-}
-.cid-svovoMmruX .stars {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  color: #ffffff;
-  top: 140px;
-}
-.cid-svovoMmruX .cBadge1 .title {
-  background: #dc514e;
-}
-.cid-svovoMmruX .cBadge1 .subtitle:after {
-  color: #dc514e;
-}
-.cid-svovoMmruX .cBadge2 .title {
-  background: #2ecc71;
-}
-.cid-svovoMmruX .cBadge2 .subtitle:after {
-  color: #2ecc71;
-}
-.cid-svovoMmruX .cBadge3 .title {
-  background: #95a5a6;
-}
-.cid-svovoMmruX .cBadge3 .subtitle:after {
-  color: #95a5a6;
-}
-.cid-svovoMmruX .cBadge4 .title {
-  background: #f1c40f;
-}
-.cid-svovoMmruX .cBadge4 .subtitle:after {
-  color: #f1c40f;
-}
-.cid-svoxeT7cki {
-  padding-top: 75px;
+.cid-sDMdfxJDF9 {
+  padding-top: 90px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-svoxeT7cki .mbr-text {
-  color: #767676;
+.cid-sDMdfxJDF9 * {
+  box-sizing: border-box;
 }
-.cid-svoxeT7cki h4 {
+.cid-sDMdfxJDF9 body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cid-sDMdfxJDF9 .column {
+  float: left;
+  width: 20.00%;
+  padding: 50px;
   text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
 }
-.cid-svoxeT7cki p {
-  text-align: center;
+.cid-sDMdfxJDF9 .containerTab {
+  padding: 20px;
+  color: black;
 }
-.cid-svoxeT7cki .badge {
-  position: relative;
-  width: 250px;
-  display: inline-block;
-  margin: 0 8px 8px 8px;
+.cid-sDMdfxJDF9 .row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.cid-svoxeT7cki .badge svg {
-  width: 250px;
-}
-.cid-svoxeT7cki .title {
-  position: absolute;
-  top: -28px;
-  border-radius: 8px 8px 0 0;
-  text-align: center;
-  width: 100%;
-  padding: 20px 0;
-  color: #232323;
-}
-.cid-svoxeT7cki .subtitle {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  color: #ffffff;
-  top: 100px;
-}
-.cid-svoxeT7cki .stars {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  color: #ffffff;
-  top: 140px;
-}
-.cid-svoxeT7cki .cBadge1 .title {
-  background: #dc514e;
-}
-.cid-svoxeT7cki .cBadge1 .subtitle:after {
-  color: #dc514e;
-}
-.cid-svoxeT7cki .cBadge2 .title {
-  background: #2ecc71;
-}
-.cid-svoxeT7cki .cBadge2 .subtitle:after {
-  color: #2ecc71;
-}
-.cid-svoxeT7cki .cBadge3 .title {
-  background: #95a5a6;
-}
-.cid-svoxeT7cki .cBadge3 .subtitle:after {
-  color: #95a5a6;
-}
-.cid-svoxeT7cki .cBadge4 .title {
-  background: #f1c40f;
-}
-.cid-svoxeT7cki .cBadge4 .subtitle:after {
-  color: #f1c40f;
+.cid-sDMdfxJDF9 .closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
 .cid-sgvD7yHYhC {
   padding-top: 6rem;
@@ -7402,7 +7335,7 @@ a {
   background-color: #ffffff;
 }
 .cid-sgSeqREJRz .mbr-text {
-  text-align: right;
+  text-align: left;
 }
 .cid-syfClBrZIo {
   z-index: 1000;
