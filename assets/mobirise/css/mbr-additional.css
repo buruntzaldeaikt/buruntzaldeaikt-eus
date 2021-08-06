@@ -4964,6 +4964,10 @@ a {
 .cid-smUK4cO0KF .row {
   justify-content: center;
 }
+.cid-smUK4cO0KF .card-title,
+.cid-smUK4cO0KF .card-box {
+  color: #232323;
+}
 .cid-sgACqkP1CI {
   padding-top: 15px;
   padding-bottom: 15px;
