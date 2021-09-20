@@ -99,7 +99,9 @@
     "mbrsiteDomain": "tv7n9qscl9",
     "witsec-language": "eu",
     "cookiesAlert": false,
-    "global_footer_custom": ""
+    "global_footer_custom": "",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
