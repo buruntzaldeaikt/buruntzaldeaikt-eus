@@ -94,6 +94,8 @@
     "witsec-language": "eu",
     "cookiesAlert": false,
     "global_footer_custom": "",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "gdpr": false
   },
   "pages": {
