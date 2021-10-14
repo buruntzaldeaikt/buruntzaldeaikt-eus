@@ -24,9 +24,6 @@
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/bloga.html</loc>
 	</url>
 	<url>
-		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/egutegia-deialdiak.html</loc>
-	</url>
-	<url>
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/egokitua.html</loc>
 	</url>
 	<url>
@@ -61,5 +58,8 @@
 	</url>
 	<url>
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/cookiepolitika.html</loc>
+	</url>
+	<url>
+		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/lehiaketa.html</loc>
 	</url>
 </urlset>

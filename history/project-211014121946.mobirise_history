@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea IKT",
-    "currentPage": "index.html",
+    "currentPage": "lehiaketa.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -94,7 +94,9 @@
     "witsec-language": "eu",
     "cookiesAlert": false,
     "global_footer_custom": "",
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
