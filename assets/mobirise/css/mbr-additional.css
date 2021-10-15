@@ -11890,27 +11890,6 @@ a {
     left: -1rem;
   }
 }
-.cid-sgACqjenDL {
-  padding-top: 10rem;
-  padding-bottom: 0rem;
-  background-image: url("../../../assets/images/calendario-1-768x495.jpg");
-}
-.cid-sgACqjenDL .mbr-section-title {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-sgACqjenDL .mbr-text,
-.cid-sgACqjenDL .mbr-section-btn {
-  color: #ffffff;
-  text-align: center;
-}
-@media (max-width: 991px) {
-  .cid-sgACqjenDL .mbr-section-title,
-  .cid-sgACqjenDL .mbr-section-btn,
-  .cid-sgACqjenDL .mbr-text {
-    text-align: center;
-  }
-}
 .cid-sgACqkP1CI {
   padding: 10% 10%;
   background-color: #ffffff;
