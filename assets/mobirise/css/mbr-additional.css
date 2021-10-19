@@ -11475,7 +11475,9 @@ a {
   }
 }
 .cid-sgACqkP1CI {
-  padding: 10% 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15%;
   background-color: #ffffff;
 }
 .cid-sgACqkP1CI .mbr-section {
@@ -11483,7 +11485,9 @@ a {
   color: #fff;
 }
 .cid-sLNwFLy3eT {
-  padding: 10% 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 15%;
   background-color: #ffffff;
 }
 .cid-sLYJL5xh04 {
@@ -11535,6 +11539,7 @@ a {
 }
 .cid-sLYJL5xh04 .mbr-section-title {
   color: #232323;
+  text-align: left;
 }
 .cid-sLYJL5xh04 .mbr-text,
 .cid-sLYJL5xh04 .mbr-section-btn {
