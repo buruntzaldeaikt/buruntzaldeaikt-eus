@@ -94,7 +94,9 @@
     "witsec-language": "eu",
     "cookiesAlert": false,
     "global_footer_custom": "",
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -584,7 +586,8 @@
           "_isSecondary": true,
           "_styles": {
             "& when not (@fullScreen)": {
-              "padding": "0% 5%"
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
             },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
