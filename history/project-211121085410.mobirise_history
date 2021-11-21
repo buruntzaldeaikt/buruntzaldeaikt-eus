@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea IKT",
-    "currentPage": "bloga.html",
+    "currentPage": "lehiaketa.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -53,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 547,
+    "uniqCompNum": 535,
     "versionPublish": "5.4.1",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -1892,7 +1892,7 @@
     "lege-oharra.html": {
       "settings": {
         "title": "Lege Oharra eta Pribatutasun Politika",
-        "order": 18,
+        "order": 19,
         "meta_image": "@PROJECT_PATH@/assets/images/bikt-121x121.png"
       },
       "components": [
@@ -2395,7 +2395,7 @@
     "xedea-ikuspegia-balioak.html": {
       "settings": {
         "title": "Xedea, Ikuspegia eta Balioak",
-        "order": 17,
+        "order": 18,
         "meta_image": "@PROJECT_PATH@/assets/images/estua-2000x463.jpg"
       },
       "components": [
@@ -3792,7 +3792,7 @@
     "covid19.html": {
       "settings": {
         "title": "Covid-19",
-        "order": 8,
+        "order": 9,
         "meta_image": "@PROJECT_PATH@/assets/images/gettyimages-1209682211-1-788x443.jpg"
       },
       "components": [
@@ -5250,7 +5250,7 @@
     "bloga.html": {
       "settings": {
         "title": "Bloga",
-        "order": 9,
+        "order": 10,
         "meta_image": "@PROJECT_PATH@/assets/images/2020-11-15-768x602.png"
       },
       "components": [
@@ -5285,7 +5285,7 @@
           },
           "_name": "witsec-html-block",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n    <input type=\"image\" title=\"Background Image\" value=\"../_images/background.jpg\" parallax>\n    <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n    <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n</div>\n\n<!-- Place your own code below -->\n<div class=\"wrapper\">\n  <iframe src=\"https://albisteak.buruntzaldeaikt.eus/\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>\n</div>\n<!-- Place your own code above -->\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n    <input type=\"image\" title=\"Background Image\" value=\"../_images/background.jpg\" parallax>\n    <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n    <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n</div>\n\n<!-- Place your own code below -->\n<div class=\"wrapper\">\n  <iframe src=\"https://albisteak.buruntzaldeaikt.eus/\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe>\n</div>\n<!-- Place your own code above -->\n\n</section>",
           "_cid": "sDHtA1XSHk",
           "_anchor": "witsec-html-block-bk",
           "_PHPplaceholders": [],
@@ -6470,7 +6470,7 @@
     "bolondresak.html": {
       "settings": {
         "title": "Bolondresak",
-        "order": 15,
+        "order": 16,
         "meta_image": "@PROJECT_PATH@/assets/images/buruntzaldea-ikt-28182024979-o-811x541.jpg"
       },
       "components": [
@@ -7164,7 +7164,7 @@
     "lan-poltsa.html": {
       "settings": {
         "title": "Lan Poltsa",
-        "order": 16,
+        "order": 17,
         "meta_image": "@PROJECT_PATH@/assets/images/10272609-456466644456587-69247149514710530-o-608x405.jpg"
       },
       "components": [
@@ -7730,7 +7730,7 @@
     "historia.html": {
       "settings": {
         "title": "Historia apur bat",
-        "order": 14,
+        "order": 15,
         "meta_image": "@PROJECT_PATH@/assets/images/sany0002-300x225.jpg",
         "meta_descr": "Sorreratik 2018ra arte taldearen pasarte desberdinak, Lasarte-Oriako klub eta elkarteen urtekarian jasotakoak (Sustraiak eta Hegoak)."
       },
@@ -9815,7 +9815,7 @@
     "dohaintzak.html": {
       "settings": {
         "title": "Dohaintzak",
-        "order": 13,
+        "order": 14,
         "meta_image": "@PROJECT_PATH@/assets/images/donaciones-2000x700.png"
       },
       "components": [
@@ -11936,7 +11936,7 @@
     "errekorrak.html": {
       "settings": {
         "title": "Taldeko Errekorrak eta Rankinak",
-        "order": 12,
+        "order": 13,
         "meta_image": "@PROJECT_PATH@/assets/images/fb-img-1577904229535-768x374.jpg",
         "meta_descr": "Ezagutu inoiz izan diren taldekide azkarrenak!"
       },
@@ -12729,7 +12729,7 @@
     "404.shtml": {
       "settings": {
         "title": "Orria ez da aurkitu",
-        "order": 10,
+        "order": 11,
         "meta_image": "@PROJECT_PATH@/assets/images/bikt-121x121.png"
       },
       "components": [
@@ -13918,7 +13918,7 @@
     "cookiepolitika.html": {
       "settings": {
         "title": "Cookie Politika",
-        "order": 19,
+        "order": 20,
         "meta_descr": "Webgune honek cookieak erabiltzen ditu",
         "meta_image": "@PROJECT_PATH@/assets/images/bikt-121x121.png"
       },
@@ -14426,7 +14426,7 @@
     "lehiaketa.html": {
       "settings": {
         "title": "Lehiaketa",
-        "order": 11,
+        "order": 12,
         "meta_descr": "Klubeko lehiaketa egutegia, deialdiak, arautegiak, serieak, emaitzak eta gutxieneko markak.",
         "meta_image": "@PROJECT_PATH@/assets/images/calendario-1-768x495.jpg"
       },
