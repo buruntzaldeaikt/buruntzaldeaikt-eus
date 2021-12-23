@@ -4398,7 +4398,7 @@ a {
 }
 .cid-sDHtA1XSHk {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-sDHtA1XSHk .wrapper {
@@ -4414,6 +4414,11 @@ a {
   left: 0;
   width: 100vw;
   height: 100vh;
+}
+.cid-sSoOEty3Sw {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
 }
 .cid-sBIdkFjx8t {
   padding-top: 1rem;
