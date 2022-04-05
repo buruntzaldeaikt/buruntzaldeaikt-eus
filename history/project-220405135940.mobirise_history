@@ -96,9 +96,7 @@
     "gdpr": false,
     "cookiesAlert": false,
     "witsec-mailform-recaptcha-hidebadge": false,
-    "witsec-jquery": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "witsec-jquery": false
   },
   "pages": {
     "index.html": {
@@ -542,13 +540,13 @@
         },
         {
           "_params": {
-            "modalName": "korrika22",
-            "modalSize": "large",
+            "modalName": "",
+            "modalSize": "medium",
             "modalHeader": true,
-            "modalTitle": "KORRIKA 2022",
-            "modalBody": "<b>Apirilaren 8an</b> KORRIKAren alde <i><b>1994 eta 2005 kilometroak</b></i> osatuko ditugu LOKErekin, Texas Lasartearrarekin eta Trinko Triatloi taldearekin batera. <br />Animatu zu ere!\n<br><a href=\"https://albisteak.buruntzaldeaikt.eus/2022/04/korrika-2022.html\">Informazio gehiago</a>\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidSQUCM0wgAvERu-qEhq77oDtInplUUHG-naNh-hKyi8dVZLj8OnBUlE4HqLSs71XSkVtQvXx5vFKBE5UdQQYt-VsWDI-UqrP39eUQTjKnv29VdRrLed73wFTYLj9lxasBWulnn8cqwfMQ-isReRnkMlLWp9mju9oSs6ObdnWYdOX3DoSP1LzxLAJr/s16000/KORRIKA%20btm.bmp\" alt=\"\" width=\"100%\" height=\"100%\" />",
-            "modalBodyHTML": true,
-            "modalFooter": false,
+            "modalTitle": "Modal title",
+            "modalBody": "Modal body text goes here.",
+            "modalBodyHTML": false,
+            "modalFooter": true,
             "modalCloseBtn": true,
             "modalCloseText": "Close",
             "modalLink": false,
@@ -557,21 +555,20 @@
             "modalLinkNewWindow": true,
             "modalVerticalCenter": false,
             "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": false,
+            "modalAutoOpen": false,
+            "modalAutoOpenOnce": true,
             "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": "3"
+            "modalAutoOpenDelay": 0
           },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#korrika22\" data-bs-toggle=\"modal\" data-bs-target=\"#korrika22\">Preview korrika22</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#korrika22-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#korrika22-howtouse\">How to use korrika22</a>\n</div>\n<div class=\"modal fade\" id=\"korrika22-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"korrika22-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"korrika22-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('korrika22')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "<b>Apirilaren 8an</b> KORRIKAren alde <i><b>1994 eta 2005 kilometroak</b></i> osatuko ditugu LOKErekin, Texas Lasartearrarekin eta Trinko Triatloi taldearekin batera. <br />Animatu zu ere!\n<br><a href=\"https://albisteak.buruntzaldeaikt.eus/2022/04/korrika-2022.html\">Informazio gehiago</a>\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidSQUCM0wgAvERu-qEhq77oDtInplUUHG-naNh-hKyi8dVZLj8OnBUlE4HqLSs71XSkVtQvXx5vFKBE5UdQQYt-VsWDI-UqrP39eUQTjKnv29VdRrLed73wFTYLj9lxasBWulnn8cqwfMQ-isReRnkMlLWp9mju9oSs6ObdnWYdOX3DoSP1LzxLAJr/s16000/KORRIKA%20btm.bmp\" alt=\"\" width=\"100%\" height=\"100%\" />",
+          "modalTest": "Please use the gear-icon to change the modal name.",
+          "modalBody": "Modal body text goes here.",
           "alias": "witsec-modal-window",
           "_tags": [
             "Extension"
           ],
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
-          "_anchor": "witsec-modal-window-block-g5",
-          "modalWindow": "<div class=\"modal fade\" id=\"korrika22\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"korrika22Label\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"korrika22Label\">KORRIKA 2022</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"korrika22_body\"><b>Apirilaren 8an</b> KORRIKAren alde <i><b>1994 eta 2005 kilometroak</b></i> osatuko ditugu LOKErekin, Texas Lasartearrarekin eta Trinko Triatloi taldearekin batera. <br />Animatu zu ere!\n<br><a href=\"https://albisteak.buruntzaldeaikt.eus/2022/04/korrika-2022.html\">Informazio gehiago</a>\n<img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidSQUCM0wgAvERu-qEhq77oDtInplUUHG-naNh-hKyi8dVZLj8OnBUlE4HqLSs71XSkVtQvXx5vFKBE5UdQQYt-VsWDI-UqrP39eUQTjKnv29VdRrLed73wFTYLj9lxasBWulnn8cqwfMQ-isReRnkMlLWp9mju9oSs6ObdnWYdOX3DoSP1LzxLAJr/s16000/KORRIKA%20btm.bmp\" alt=\"\" width=\"100%\" height=\"100%\" /></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#korrika22\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#korrika22_body\" ).html(); \n      $( \"#korrika22_body\" ).empty(); \n      $( \"#korrika22_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#korrika22\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "_anchor": "witsec-modal-window-block-g5"
         },
         {
           "alias": false,

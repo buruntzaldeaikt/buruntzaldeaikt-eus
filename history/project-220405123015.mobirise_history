@@ -96,9 +96,7 @@
     "gdpr": false,
     "cookiesAlert": false,
     "witsec-mailform-recaptcha-hidebadge": false,
-    "witsec-jquery": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "witsec-jquery": false
   },
   "pages": {
     "index.html": {

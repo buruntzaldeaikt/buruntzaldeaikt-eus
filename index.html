@@ -15,9 +15,9 @@
   
   
   <title>Buruntzaldea Igeriketa Kirol Taldea</title>
+  <link rel="stylesheet" href="assets/social-icons/css/social-icon.min.css">
   <link rel="stylesheet" href="assets/font-awesome-solid/../css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/font-awesome-solid/css/solid.min.css">
-  <link rel="stylesheet" href="assets/social-icons/css/social-icon.min.css">
   <link rel="stylesheet" href="assets/font-awesome-brands/../css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/font-awesome-brands/css/brands.min.css">
   <link rel="stylesheet" href="assets/map-icons/css/map-icons.min.css">
@@ -123,6 +123,85 @@
         </div>
     </div>
 </section>
+
+<section class="mbr-section" id="witsec-modal-window-block-g5" data-rv-view="516">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="korrika22" tabindex="-1" role="dialog" aria-labelledby="korrika22Label" aria-hidden="true">  <div class="modal-dialog modal-lg " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="korrika22Label">KORRIKA 2022</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="korrika22_body"><strong>Apirilaren 8an</strong> KORRIKAren alde <em><strong>1994 eta 2005 kilometroak</strong></em> osatuko ditugu LOKErekin, Texas Lasartearrarekin eta Trinko Triatloi taldearekin batera. <br>Animatu zu ere!
+<br><a href="https://albisteak.buruntzaldeaikt.eus/2022/04/korrika-2022.html">Informazio gehiago</a>
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidSQUCM0wgAvERu-qEhq77oDtInplUUHG-naNh-hKyi8dVZLj8OnBUlE4HqLSs71XSkVtQvXx5vFKBE5UdQQYt-VsWDI-UqrP39eUQTjKnv29VdRrLed73wFTYLj9lxasBWulnn8cqwfMQ-isReRnkMlLWp9mju9oSs6ObdnWYdOX3DoSP1LzxLAJr/s16000/KORRIKA%20btm.bmp" alt="" width="100%" height="100%"></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#korrika22").on("hidden.bs.modal", function () { 
+      var html = $( "#korrika22_body" ).html(); 
+      $( "#korrika22_body" ).empty(); 
+      $( "#korrika22_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#korrika22") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout( function() { OpenModal("korrika22"); } , 3000);
+});
+</script>
 
 <section data-bs-version="5.1" class="content15 cid-sjZldZa2Bs" id="content15-65">
 
