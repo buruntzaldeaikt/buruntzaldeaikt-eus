@@ -45,9 +45,6 @@
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/404.shtml</loc>
 	</url>
 	<url>
-		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/2122izenematea.html</loc>
-	</url>
-	<url>
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/cookiepolitika.html</loc>
 	</url>
 	<url>
@@ -58,5 +55,8 @@
 	</url>
 	<url>
 		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/postontzia.html</loc>
+	</url>
+	<url>
+		<loc>https://www.buruntzaldeaikt.eus/sitemap.xml/2223izenematea.html</loc>
 	</url>
 </urlset>
