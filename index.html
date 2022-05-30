@@ -22,7 +22,6 @@
   <link rel="stylesheet" href="assets/font-awesome-brands/css/brands.min.css">
   <link rel="stylesheet" href="assets/map-icons/css/map-icons.min.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
@@ -123,6 +122,83 @@
         </div>
     </div>
 </section>
+
+<section class="mbr-section" id="witsec-modal-window-block-gi" data-rv-view="994">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal fade" id="Laguntza" tabindex="-1" role="dialog" aria-labelledby="LaguntzaLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="LaguntzaLabel">Lagun iezaguzu gure kirol proiektua mantentzen!</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Laguntza_body">Edozein ekarpen eginda ere, gure taldearentzat oso garrantzitsua izango da!<br><br>Mila esker aldez aurretik!</div><div class="modal-footer"><div class="mbr-section-btn"><a href="https://www.paypal.com/donate/?hosted_button_id=GYFKENKDE72QQ" class="no-anim btn btn-primary display-4" target="_new">Dohaintza egin nahi dut!</a></div></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#Laguntza").on("hidden.bs.modal", function () { 
+      var html = $( "#Laguntza_body" ).html(); 
+      $( "#Laguntza_body" ).empty(); 
+      $( "#Laguntza_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#Laguntza") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if(typeof jQuery === "function") {
+				if ($('#' + modalName).length)
+					$('#' + modalName).modal('show');
+				else
+					alert("Sorry, but there is no modal for " + modalName);
+			} else {
+				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
+				mdw.show();
+			}
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout( function() { OpenModal("Laguntza"); } , 3000);
+});
+</script>
 
 <section data-bs-version="5.1" class="content15 cid-sjZldZa2Bs" id="content15-65">
 
