@@ -96,7 +96,9 @@
     "gdpr": false,
     "cookiesAlert": false,
     "witsec-mailform-recaptcha-hidebadge": false,
-    "witsec-jquery": false
+    "witsec-jquery": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -543,7 +545,7 @@
             "modalName": "ATE-IREKIAK",
             "modalSize": "medium",
             "modalHeader": true,
-            "modalTitle": "ATE IREKIAK ANDOAINEN -Allurralde-",
+            "modalTitle": "ATE IREKIAK",
             "modalBody": " <img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLeGSeClyUc9E-ql4Pwdu1Vr2EPzjcfnMqO-w0khlTrLzo4HNeeZKwvophk0Gr6OC1MXt39xOUP3KrB5SY1DkblKMG6_ve1X3fEUfTD2d2M2MBstotX0vXgSW6tnzsKSK6HYS9s4WWWDv6Q4i05-80Lv91XeuvXceJ2SrmHoTKMJ0YFVGEH6_1cqg5/s16000/Ate%20irekiak%20_%20Puertas%20abiertas%20Andoain.jpg\">\n",
             "modalBodyHTML": true,
             "modalFooter": true,
@@ -569,7 +571,7 @@
           "_name": "witsec-modal-window-block",
           "_sourceTheme": "mobirise5",
           "_anchor": "witsec-modal-window-block-gk",
-          "modalWindow": "<div class=\"modal fade\" id=\"ATE-IREKIAK\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"ATE-IREKIAKLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"ATE-IREKIAKLabel\">ATE IREKIAK ANDOAINEN -Allurralde-</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"ATE-IREKIAK_body\"> <img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLeGSeClyUc9E-ql4Pwdu1Vr2EPzjcfnMqO-w0khlTrLzo4HNeeZKwvophk0Gr6OC1MXt39xOUP3KrB5SY1DkblKMG6_ve1X3fEUfTD2d2M2MBstotX0vXgSW6tnzsKSK6HYS9s4WWWDv6Q4i05-80Lv91XeuvXceJ2SrmHoTKMJ0YFVGEH6_1cqg5/s16000/Ate%20irekiak%20_%20Puertas%20abiertas%20Andoain.jpg\">\n</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"https://forms.gle/gdkQHD2x1fEr2n7w5\" class=\"no-anim btn btn-primary display-4\" target=_new>Ate irekietara joan nahi dut!</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#ATE-IREKIAK\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#ATE-IREKIAK_body\" ).html(); \n      $( \"#ATE-IREKIAK_body\" ).empty(); \n      $( \"#ATE-IREKIAK_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#ATE-IREKIAK\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"ATE-IREKIAK\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"ATE-IREKIAKLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"ATE-IREKIAKLabel\">ATE IREKIAK</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"ATE-IREKIAK_body\"> <img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLeGSeClyUc9E-ql4Pwdu1Vr2EPzjcfnMqO-w0khlTrLzo4HNeeZKwvophk0Gr6OC1MXt39xOUP3KrB5SY1DkblKMG6_ve1X3fEUfTD2d2M2MBstotX0vXgSW6tnzsKSK6HYS9s4WWWDv6Q4i05-80Lv91XeuvXceJ2SrmHoTKMJ0YFVGEH6_1cqg5/s16000/Ate%20irekiak%20_%20Puertas%20abiertas%20Andoain.jpg\">\n</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"https://forms.gle/gdkQHD2x1fEr2n7w5\" class=\"no-anim btn btn-primary display-4\" target=_new>Ate irekietara joan nahi dut!</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#ATE-IREKIAK\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#ATE-IREKIAK_body\" ).html(); \n      $( \"#ATE-IREKIAK_body\" ).empty(); \n      $( \"#ATE-IREKIAK_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#ATE-IREKIAK\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "alias": false,
