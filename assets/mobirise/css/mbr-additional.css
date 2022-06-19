@@ -11157,8 +11157,19 @@ a {
     left: -1rem;
   }
 }
-.cid-t64ypSFQAb {
-  background-image: url("../../../assets/images/kartela-22-23-2000x1042.png");
+.cid-t9egIHEcdy {
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-t9egIHEcdy .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-t9egIHEcdy .row {
+  flex-direction: row-reverse;
+}
+.cid-t9egIHEcdy img {
+  width: 100%;
 }
 .cid-t5ZfmsNo1I {
   padding-top: 7rem;
