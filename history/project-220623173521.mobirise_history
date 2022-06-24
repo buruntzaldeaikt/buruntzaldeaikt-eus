@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea Igeriketa Kirol Taldea",
-    "currentPage": "index.html",
+    "currentPage": "estiloak.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -539,6 +539,39 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_params": {
+            "modalName": "ATE-IREKIAK",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "ATE IREKIAK ANDOAINEN -Allurralde-",
+            "modalBody": " <img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLeGSeClyUc9E-ql4Pwdu1Vr2EPzjcfnMqO-w0khlTrLzo4HNeeZKwvophk0Gr6OC1MXt39xOUP3KrB5SY1DkblKMG6_ve1X3fEUfTD2d2M2MBstotX0vXgSW6tnzsKSK6HYS9s4WWWDv6Q4i05-80Lv91XeuvXceJ2SrmHoTKMJ0YFVGEH6_1cqg5/s16000/Ate%20irekiak%20_%20Puertas%20abiertas%20Andoain.jpg\">\n",
+            "modalBodyHTML": true,
+            "modalFooter": true,
+            "modalCloseBtn": false,
+            "modalCloseText": "Close",
+            "modalLink": true,
+            "modalLinkUrl": "https://forms.gle/gdkQHD2x1fEr2n7w5",
+            "modalLinkText": "Ate irekietara joan nahi dut!",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": false,
+            "modalFade": true,
+            "modalAutoOpen": true,
+            "modalAutoOpenOnce": false,
+            "modalAutoOpenGDPR": false,
+            "modalAutoOpenDelay": "3"
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#ATE-IREKIAK\" data-bs-toggle=\"modal\" data-bs-target=\"#ATE-IREKIAK\">Preview ATE-IREKIAK</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#ATE-IREKIAK-howtouse\" data-bs-toggle=\"modal\" data-bs-target=\"#ATE-IREKIAK-howtouse\">How to use ATE-IREKIAK</a>\n</div>\n<div class=\"modal fade\" id=\"ATE-IREKIAK-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"ATE-IREKIAK-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"ATE-IREKIAK-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('ATE-IREKIAK')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": " <img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLeGSeClyUc9E-ql4Pwdu1Vr2EPzjcfnMqO-w0khlTrLzo4HNeeZKwvophk0Gr6OC1MXt39xOUP3KrB5SY1DkblKMG6_ve1X3fEUfTD2d2M2MBstotX0vXgSW6tnzsKSK6HYS9s4WWWDv6Q4i05-80Lv91XeuvXceJ2SrmHoTKMJ0YFVGEH6_1cqg5/s16000/Ate%20irekiak%20_%20Puertas%20abiertas%20Andoain.jpg\">\n",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_sourceTheme": "mobirise5",
+          "_anchor": "witsec-modal-window-block-gk",
+          "modalWindow": "<div class=\"modal fade\" id=\"ATE-IREKIAK\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"ATE-IREKIAKLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"ATE-IREKIAKLabel\">ATE IREKIAK ANDOAINEN -Allurralde-</h5>  <a href=\"#\" class=\"no-anim close\" data-bs-dismiss=\"modal\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"ATE-IREKIAK_body\"> <img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLeGSeClyUc9E-ql4Pwdu1Vr2EPzjcfnMqO-w0khlTrLzo4HNeeZKwvophk0Gr6OC1MXt39xOUP3KrB5SY1DkblKMG6_ve1X3fEUfTD2d2M2MBstotX0vXgSW6tnzsKSK6HYS9s4WWWDv6Q4i05-80Lv91XeuvXceJ2SrmHoTKMJ0YFVGEH6_1cqg5/s16000/Ate%20irekiak%20_%20Puertas%20abiertas%20Andoain.jpg\">\n</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"https://forms.gle/gdkQHD2x1fEr2n7w5\" class=\"no-anim btn btn-primary display-4\" target=_new>Ate irekietara joan nahi dut!</a></div></div>    </div>  </div></div><script> \ndocument.addEventListener(\"DOMContentLoaded\", function() { \n  if(typeof jQuery === \"function\") {\n    $(\"#ATE-IREKIAK\").on(\"hidden.bs.modal\", function () { \n      var html = $( \"#ATE-IREKIAK_body\" ).html(); \n      $( \"#ATE-IREKIAK_body\" ).empty(); \n      $( \"#ATE-IREKIAK_body\" ).append(html); \n    }) \n  } else { \n      var mdw = document.getElementById(\"#ATE-IREKIAK\") \n      mdw.addEventListener(\"hidden.bs.modal\", function(event) { \n        mdw.innerHTML = mdw.innerHTML; \n      }); \n  } \n}); \n</script>"
         },
         {
           "alias": false,
