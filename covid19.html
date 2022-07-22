@@ -193,7 +193,22 @@
 
 	
 	
-	<div><div class="modal fade" id="Osasun-Arduraduna" tabindex="-1" role="dialog" aria-labelledby="Osasun-ArduradunaLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="Osasun-ArduradunaLabel">Osasun Arduraduna</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Osasun-Arduraduna_body">Osasun Arduraduna: Borja Apeztegia Bravo<br><br>Telefonoa eta Whatsapp-a: 696 506 632<br><br>Emaila: info@buruntzaldeaikt.eus</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Itxi</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Osasun-Arduraduna").on("hidden.bs.modal", function () {    var html = $( "#Osasun-Arduraduna_body" ).html();    $( "#Osasun-Arduraduna_body" ).empty();    $( "#Osasun-Arduraduna_body" ).append(html);  })});</script></div>
+	<div><div class="modal fade" id="Osasun-Arduraduna" tabindex="-1" role="dialog" aria-labelledby="Osasun-ArduradunaLabel" aria-hidden="true">  <div class="modal-dialog  modal-dialog-centered" style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="Osasun-ArduradunaLabel">Osasun Arduraduna</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Osasun-Arduraduna_body">Osasun Arduraduna: Borja Apeztegia Bravo<br><br>Telefonoa eta Whatsapp-a: 696 506 632<br><br>Emaila: info@buruntzaldeaikt.eus</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Itxi</a></div></div>    </div>  </div></div><script> 
+document.addEventListener("DOMContentLoaded", function() { 
+  if(typeof jQuery === "function") {
+    $("#Osasun-Arduraduna").on("hidden.bs.modal", function () { 
+      var html = $( "#Osasun-Arduraduna_body" ).html(); 
+      $( "#Osasun-Arduraduna_body" ).empty(); 
+      $( "#Osasun-Arduraduna_body" ).append(html); 
+    }) 
+  } else { 
+      var mdw = document.getElementById("#Osasun-Arduraduna") 
+      mdw.addEventListener("hidden.bs.modal", function(event) { 
+        mdw.innerHTML = mdw.innerHTML; 
+      }); 
+  } 
+}); 
+</script></div>
 
 	<script>
 	if (typeof OpenModal === 'undefined') {
@@ -245,7 +260,7 @@
             <div class="col-6 col-lg-3">
                 <div class="media-wrap col-md-8 col-12">
                     <a href="index.html">
-                        <img src="assets/images/bikt-121x121.png" alt="Buruntzaldea IKT">
+                        <img src="assets/images/bikt-3-121x121.png" alt="Buruntzaldea IKT">
                     </a>
                 </div>
             </div>
