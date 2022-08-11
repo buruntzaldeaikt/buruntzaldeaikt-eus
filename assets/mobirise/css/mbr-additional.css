@@ -9572,11 +9572,16 @@ a {
     left: -1rem;
   }
 }
-.cid-ted6ElZPGr {
-  padding-right: 10%;
-  padding-left: 10%;
-  padding-top: 15%;
+.cid-e0zafC4Uni {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
   background-color: #ffffff;
+}
+.cid-e0zafC4Uni .mbr-section-title {
+  text-align: center;
+}
+.cid-e0zafC4Uni .frame {
+  min-height: 500px;
 }
 .cid-sLNwFLy3eT {
   padding-right: 10%;
