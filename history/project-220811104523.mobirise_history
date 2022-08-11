@@ -53,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 605,
+    "uniqCompNum": 604,
     "versionPublish": "5.6.5",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -96,7 +96,9 @@
     "gdpr": false,
     "cookiesAlert": false,
     "witsec-mailform-recaptcha-hidebadge": false,
-    "witsec-jquery": false
+    "witsec-jquery": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -12612,7 +12614,7 @@
       },
       "components": [
         {
-          "alias": "witsec-code-editor/components",
+          "alias": "deltapi-code-editor",
           "_isSecondary": true,
           "_styles": {
             "& when not (@fullScreen)": {
@@ -12627,11 +12629,11 @@
               "background-image": "url(@bg-value)"
             }
           },
-          "_name": "witsec-html-block",
+          "_name": "custom-html",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n    <input type=\"image\" title=\"Background Image\" value=\"../_images/background.jpg\" parallax>\n    <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n    <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n</div>\n\n<!-- Place your own code below -->\n<iframe src=\"https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FMadrid&showPrint=0&title=LEHIAKETA%20EGUTEGIA&showTabs=1&src=ZzZpZ2pwcmRubGxsNXVlb29sYmttYjM5c2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cHI2ODVpajE3cmducnVzOG80YWNxbnJudjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGI1bTBxc2MxdmIwNDYzdm1rcmxydWxmbGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YjkzMzNpNjhpM3E3cDRvbTdtZGZ2bGpqbWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=b2g5aDdiNWs0aDJ0OWtpcDFtdjNzY2N1M3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dWk1MTBsZjhka3Q2NmY1cmVzMjAzamp1cDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MG9zc2lrZzc4ZjQ4Nm8zZmhuOWUyZjNscGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZjJyY3JpY3VvZXRqOHZudjlsc29ndHNxM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dGk0aG02ZDY0a3ZnY2gzYW1hc3V1bHN0Ym9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23C0CA33&color=%23F09300&color=%23D81B60&color=%23B39DDB&color=%230B8043&color=%23F4511E&color=%23E4C441&color=%23E67C73&color=%23F4511E\" style=\"border-width:0\" width=\"800\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>\n<!-- Place your own code above -->\n\n</section>",
-          "_cid": "ted6ElZPGr",
-          "_anchor": "witsec-html-block-gs",
+          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n    <input type=\"image\" title=\"Background Image\" value=\"../_images/background.jpg\" parallax>\n    <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n    <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n</div>\n\n<!-- Place your own code below -->\n<iframe src=\"https://calendar.google.com/calendar/embed?height=400&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FMadrid&title=TXAPELKETA%20EGUTEGIA&showNav=1&showDate=1&showPrint=0&showTabs=1&src=ZzZpZ2pwcmRubGxsNXVlb29sYmttYjM5c2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cHI2ODVpajE3cmducnVzOG80YWNxbnJudjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGI1bTBxc2MxdmIwNDYzdm1rcmxydWxmbGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YjkzMzNpNjhpM3E3cDRvbTdtZGZ2bGpqbWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dGk0aG02ZDY0a3ZnY2gzYW1hc3V1bHN0Ym9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=b2g5aDdiNWs0aDJ0OWtpcDFtdjNzY2N1M3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dWk1MTBsZjhka3Q2NmY1cmVzMjAzamp1cDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MG9zc2lrZzc4ZjQ4Nm8zZmhuOWUyZjNscGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZjJyY3JpY3VvZXRqOHZudjlsc29ndHNxM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23C0CA33&color=%23F09300&color=%23D81B60&color=%23B39DDB&color=%23F4511E&color=%230B8043&color=%23F4511E&color=%23E4C441&color=%23E67C73\" style=\"border-width:0\" width=\"800\" height=\"400\" frameborder=\"0\" scrolling=\"no\"></iframe>\n<!-- Place your own code above -->\n\n</section>",
+          "_cid": "sgACqkP1CI",
+          "_anchor": "egutegia",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
