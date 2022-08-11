@@ -9583,11 +9583,16 @@ a {
 .cid-e0zafC4Uni .frame {
   min-height: 500px;
 }
-.cid-sLNwFLy3eT {
-  padding-right: 10%;
-  padding-left: 10%;
-  padding-top: 15%;
+.cid-tedxPdCqcT {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
   background-color: #ffffff;
+}
+.cid-tedxPdCqcT .mbr-section-title {
+  text-align: center;
+}
+.cid-tedxPdCqcT .frame {
+  min-height: 500px;
 }
 .cid-sLYJL5xh04 {
   padding-top: 6rem;
