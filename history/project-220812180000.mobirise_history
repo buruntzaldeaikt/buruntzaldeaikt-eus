@@ -53,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 608,
+    "uniqCompNum": 607,
     "versionPublish": "5.6.5",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -96,7 +96,9 @@
     "gdpr": false,
     "cookiesAlert": false,
     "witsec-mailform-recaptcha-hidebadge": false,
-    "witsec-jquery": false
+    "witsec-jquery": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -12625,38 +12627,9 @@
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>IFRAME BLOCK</header>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"range\" inline title=\"Height\" name=\"height\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Iframe Link</header>\n        <input type=\"text\" inline title=\"link\" name=\"link\" value=\"https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FMadrid&showPrint=0&title=LEHIAKETA%20EGUTEGIA&showTabs=1&src=ZzZpZ2pwcmRubGxsNXVlb29sYmttYjM5c2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cHI2ODVpajE3cmducnVzOG80YWNxbnJudjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGI1bTBxc2MxdmIwNDYzdm1rcmxydWxmbGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YjkzMzNpNjhpM3E3cDRvbTdtZGZ2bGpqbWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=b2g5aDdiNWs0aDJ0OWtpcDFtdjNzY2N1M3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dWk1MTBsZjhka3Q2NmY1cmVzMjAzamp1cDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MG9zc2lrZzc4ZjQ4Nm8zZmhuOWUyZjNscGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZjJyY3JpY3VvZXRqOHZudjlsc29ndHNxM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dGk0aG02ZDY0a3ZnY2gzYW1hc3V1bHN0Ym9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23C0CA33&color=%23F09300&color=%23D81B60&color=%23B39DDB&color=%230B8043&color=%23F4511E&color=%23E4C441&color=%23E67C73&color=%23F4511E\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Iframe\" name=\"showiframe\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}} frame\">\n                <div class=\"col-12\" style=\"margin-bottom: 20px;\" mbr-if=\"showMainTitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>LEHIAKETA EGUTEGIA</b></h3>\n                </div>\n                <iframe mbr-if=\"showiframe\" allow=\"camera; microphone; fullscreen; autoplay\" src=\"{{link}}\" style=\"height: 100%; width: 100%; border: 0px;\"></iframe>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>IFRAME BLOCK</header>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <input type=\"range\" inline title=\"Height\" name=\"height\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Iframe Link</header>\n        <input type=\"text\" inline title=\"link\" name=\"link\" value=\"https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FMadrid&showPrint=0&title=LEHIAKETA%20EGUTEGIA&showTabs=1&src=ZzZpZ2pwcmRubGxsNXVlb29sYmttYjM5c2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cHI2ODVpajE3cmducnVzOG80YWNxbnJudjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGI1bTBxc2MxdmIwNDYzdm1rcmxydWxmbGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YjkzMzNpNjhpM3E3cDRvbTdtZGZ2bGpqbWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=b2g5aDdiNWs0aDJ0OWtpcDFtdjNzY2N1M3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dWk1MTBsZjhka3Q2NmY1cmVzMjAzamp1cDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MG9zc2lrZzc4ZjQ4Nm8zZmhuOWUyZjNscGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZjJyY3JpY3VvZXRqOHZudjlsc29ndHNxM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dGk0aG02ZDY0a3ZnY2gzYW1hc3V1bHN0Ym9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23C0CA33&color=%23F09300&color=%23D81B60&color=%23B39DDB&color=%230B8043&color=%23F4511E&color=%23E4C441&color=%23E67C73&color=%23F4511E\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Iframe\" name=\"showiframe\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}} frame\">\n                <div class=\"col-12\" style=\"margin-bottom: 20px;\" mbr-if=\"showMainTitle\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><b>LEHIAKETA EGUTEGIA</b></h3>\n                </div>\n                <iframe mbr-if=\"showiframe\" allow=\"camera; microphone; fullscreen; autoplay\" src=\"{{link}}\" style=\"height: 100%; width: 100%; border: 0px;\"></iframe>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "e0zafC4Uni",
           "_anchor": "egutegia",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "witsec-code-editor/components",
-          "_isSecondary": true,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-right": "10%",
-              "padding-left": "10%",
-              "padding-top": "15%"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            }
-          },
-          "_name": "witsec-html-block",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n    <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background-1.jpg\" parallax=\"\">\n    <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n    <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n</div>\n\n<!-- Place your own code below -->\n<iframe src=\"https://calendar.google.com/calendar/embed?height=400&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FMadrid&amp;title=CALENDARIO%20DE%20COMPETICIÓN&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp;src=ZzZpZ2pwcmRubGxsNXVlb29sYmttYjM5c2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=cHI2ODVpajE3cmducnVzOG80YWNxbnJudjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=OGI1bTBxc2MxdmIwNDYzdm1rcmxydWxmbGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YjkzMzNpNjhpM3E3cDRvbTdtZGZ2bGpqbWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=dGk0aG02ZDY0a3ZnY2gzYW1hc3V1bHN0Ym9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=b2g5aDdiNWs0aDJ0OWtpcDFtdjNzY2N1M3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=dWk1MTBsZjhka3Q2NmY1cmVzMjAzamp1cDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=MG9zc2lrZzc4ZjQ4Nm8zZmhuOWUyZjNscGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZjJyY3JpY3VvZXRqOHZudjlsc29ndHNxM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23C0CA33&amp;color=%23F09300&amp;color=%23D81B60&amp;color=%23B39DDB&amp;color=%23F4511E&amp;color=%230B8043&amp;color=%23F4511E&amp;color=%23E4C441&amp;color=%23E67C73\" style=\"border-width:0\" width=\"800\" height=\"400\" frameborder=\"0\" scrolling=\"no\"></iframe>\n<!-- Place your own code above -->\n\n</section>",
-          "_JSplaceholders": [],
-          "_PHPplaceholders": [],
-          "_anchor": "witsec-html-block-gv",
-          "_isUserblock": true,
-          "_cid": "tejs3Nxxn3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
