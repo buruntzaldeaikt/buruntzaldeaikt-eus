@@ -96,7 +96,9 @@
     "gdpr": false,
     "cookiesAlert": false,
     "witsec-mailform-recaptcha-hidebadge": false,
-    "witsec-jquery": false
+    "witsec-jquery": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -12612,31 +12614,6 @@
       },
       "components": [
         {
-          "alias": false,
-          "_styles": {
-            "background-color": "@bgcolor",
-            ".show": {
-              "visibility": "visible"
-            },
-            "& when not (@preview)": {
-              "iframe": {
-                "visibility": "hidden"
-              }
-            },
-            ".hide": {
-              "visibility": "hidden"
-            }
-          },
-          "_name": "design-block",
-          "_customHTML": "<section data-bs-version=\"5.1\" group=\"HTML\" style=\"padding:{{ padding }}%;\">\n\n<mbr-parameters>\n<input type=\"text\" title=\"Iframe Width\" name=\"width\" value=\"1920\">\n<input type=\"text\" title=\"Iframe Height\" name=\"height\" value=\"1000\">\n<input type=\"text\" title=\"URL\" name=\"iframeSrc\" value=\"https://calendar.google.com/calendar/embed?height=500&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FMadrid&title=DEIALDIAK%20ETA%20EMAITZAK&showPrint=0&showTabs=1&mode=MONTH&src=ZzZpZ2pwcmRubGxsNXVlb29sYmttYjM5c2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cHI2ODVpajE3cmducnVzOG80YWNxbnJudjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGI1bTBxc2MxdmIwNDYzdm1rcmxydWxmbGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YjkzMzNpNjhpM3E3cDRvbTdtZGZ2bGpqbWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=b2g5aDdiNWs0aDJ0OWtpcDFtdjNzY2N1M3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dWk1MTBsZjhka3Q2NmY1cmVzMjAzamp1cDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MG9zc2lrZzc4ZjQ4Nm8zZmhuOWUyZjNscGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZjJyY3JpY3VvZXRqOHZudjlsc29ndHNxM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dGk0aG02ZDY0a3ZnY2gzYW1hc3V1bHN0Ym9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23C0CA33&color=%23F09300&color=%23D81B60&color=%23B39DDB&color=%230B8043&color=%23F4511E&color=%23E4C441&color=%23E67C73&color=%23F4511E\">\n<input type=\"checkbox\" title=\"Preview Iframe Content\" name=\"preview\" checked>\n<input type=\"range\" inline title=\"Padding %\" name=\"padding\" min=\"0\" max=\"15\" value=\"7\" step=\"1\">\n<input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#ffffff\" selected>\n</mbr-parameters>\n\n<div style=\"position: relative; overflow: hidden; padding-top:calc( {{height}} / {{width}} * 100%);\">\n<img mbr-class=\"{'hide': isPublish}\" src=\"https://res.cloudinary.com/ezenwa/image/upload/v1590745237/test-bars_yednyc.svg\" style=\"position:absolute; top:0; left:0; width:100%; height:100%; border:0;\">\n<iframe mbr-class=\"{'show': isPublish}\" allowfullscreen=\"yes\" style=\"position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\" src=\"{{iframeSrc}}\"></iframe>\n</div>\n\n</section>",
-          "_cid": "xFzKHlIKol",
-          "_anchor": "design-block-xFzKHlIKol",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
           "_name": "design-block",
           "_sourceTheme": "mobirise5",
           "_styles": {
@@ -13279,6 +13256,31 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgcolor",
+            ".show": {
+              "visibility": "visible"
+            },
+            "& when not (@preview)": {
+              "iframe": {
+                "visibility": "hidden"
+              }
+            },
+            ".hide": {
+              "visibility": "hidden"
+            }
+          },
+          "_name": "design-block",
+          "_customHTML": "<section group=\"HTML\" style=\"padding:{{ padding }}%;\">\n\n<mbr-parameters>\n<input type=\"text\" title=\"Iframe Width\" name=\"width\" value=\"1920\">\n<input type=\"text\" title=\"Iframe Height\" name=\"height\" value=\"1080\">\n<input type=\"text\" title=\"URL\" name=\"iframeSrc\" value=\"https://gifted-pare-e8a95b.netlify.app/responsive-iframe/\">\n<input type=\"checkbox\" title=\"Preview Iframe Content\" name=\"preview\" checked>\n<input type=\"range\" inline title=\"Padding %\" name=\"padding\" min=\"0\" max=\"15\" value=\"7\" step=\"1\">\n<input type=\"color\" title=\"Background Color\" name=\"bgcolor\" value=\"#242930\" selected>\n</mbr-parameters>\n\n<div style=\"position: relative; overflow: hidden; padding-top:calc( {{height}} / {{width}} * 100%);\">\n<img mbr-class=\"{'hide': isPublish}\" src=\"https://res.cloudinary.com/ezenwa/image/upload/v1590745237/test-bars_yednyc.svg\" style=\"position:absolute; top:0; left:0; width:100%; height:100%; border:0;\">\n<iframe mbr-class=\"{'show': isPublish}\" allowfullscreen=\"yes\" style=\"position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;\" src=\"{{iframeSrc}}\"></iframe>\n</div>\n\n</section>",
+          "_cid": "xFzKHlIKol",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "design-block-xFzKHlIKol"
         }
       ]
     },

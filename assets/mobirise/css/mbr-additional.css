@@ -9572,14 +9572,14 @@ a {
     left: -1rem;
   }
 }
-.cid-tenARxGRHh {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.cid-xFzKHlIKol {
   background-color: #ffffff;
 }
-.cid-tenARxGRHh .mbr-section {
-  text-align: center;
-  color: #fff;
+.cid-xFzKHlIKol .show {
+  visibility: visible;
+}
+.cid-xFzKHlIKol .hide {
+  visibility: hidden;
 }
 .cid-tenm3rBFaT {
   padding-top: 5rem;
