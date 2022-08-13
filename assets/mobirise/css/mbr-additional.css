@@ -9583,6 +9583,9 @@ a {
 .cid-tenm3rBFaT .frame {
   min-height: 500px;
 }
+.cid-tenm3rBFaT html {
+  overflow: hidden;
+}
 .cid-tennoZRj3L {
   padding-top: 5rem;
   padding-bottom: 1rem;
