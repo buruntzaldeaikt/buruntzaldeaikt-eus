@@ -53,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 612,
+    "uniqCompNum": 611,
     "versionPublish": "5.6.5",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -96,7 +96,9 @@
     "gdpr": false,
     "cookiesAlert": false,
     "witsec-mailform-recaptcha-hidebadge": false,
-    "witsec-jquery": false
+    "witsec-jquery": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -12625,13 +12627,15 @@
           },
           "_name": "custom-html",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\"><b>custom-html</b></h2>\n\t\t\t\t<iframe src=\"https://calendar.google.com/calendar/embed?height=500&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FMadrid&title=DEIALDIAK%20ETA%20EMAITZAK&showPrint=0&showTabs=1&mode=MONTH&src=ZzZpZ2pwcmRubGxsNXVlb29sYmttYjM5c2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cHI2ODVpajE3cmducnVzOG80YWNxbnJudjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGI1bTBxc2MxdmIwNDYzdm1rcmxydWxmbGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YjkzMzNpNjhpM3E3cDRvbTdtZGZ2bGpqbWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=b2g5aDdiNWs0aDJ0OWtpcDFtdjNzY2N1M3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dWk1MTBsZjhka3Q2NmY1cmVzMjAzamp1cDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MG9zc2lrZzc4ZjQ4Nm8zZmhuOWUyZjNscGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZjJyY3JpY3VvZXRqOHZudjlsc29ndHNxM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dGk0aG02ZDY0a3ZnY2gzYW1hc3V1bHN0Ym9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23C0CA33&color=%23F09300&color=%23D81B60&color=%23B39DDB&color=%230B8043&color=%23F4511E&color=%23E4C441&color=%23E67C73&color=%23F4511E\" style=\"border-width:0\" width=\"800\" height=\"500\" frameborder=\"0\" scrolling=\"no\"></iframe>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "tenARxGRHh",
-          "_anchor": "custom-html-gz",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-12\">\n                <h2 class=\"mbr-fonts-style block-title align-center\" data-app-selector=\".block-title\" mbr-theme-style=\"display-2\">custom-html</h2>\n\t\t\t\t<img class=\"my-image\" src=https://calendar.google.com/calendar/embed?height=500&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FMadrid&title=DEIALDIAK%20ETA%20EMAITZAK&showPrint=0&showTabs=1&mode=MONTH&src=ZzZpZ2pwcmRubGxsNXVlb29sYmttYjM5c2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cHI2ODVpajE3cmducnVzOG80YWNxbnJudjRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=OGI1bTBxc2MxdmIwNDYzdm1rcmxydWxmbGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YjkzMzNpNjhpM3E3cDRvbTdtZGZ2bGpqbWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=b2g5aDdiNWs0aDJ0OWtpcDFtdjNzY2N1M3NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dWk1MTBsZjhka3Q2NmY1cmVzMjAzamp1cDRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=MG9zc2lrZzc4ZjQ4Nm8zZmhuOWUyZjNscGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZjJyY3JpY3VvZXRqOHZudjlsc29ndHNxM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=dGk0aG02ZDY0a3ZnY2gzYW1hc3V1bHN0Ym9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23C0CA33&color=%23F09300&color=%23D81B60&color=%23B39DDB&color=%230B8043&color=%23F4511E&color=%23E4C441&color=%23E67C73&color=%23F4511E\" style=\"border-width:0\" width=\"800\" height=\"500\" frameborder=\"0\" scrolling=\"no\">\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tenAtfJNsv",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "custom-html-gy",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_name": "design-block",

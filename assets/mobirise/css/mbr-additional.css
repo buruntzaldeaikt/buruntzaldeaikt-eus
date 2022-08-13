@@ -9572,6 +9572,15 @@ a {
     left: -1rem;
   }
 }
+.cid-tenARxGRHh {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-tenARxGRHh .mbr-section {
+  text-align: center;
+  color: #fff;
+}
 .cid-tenm3rBFaT {
   padding-top: 5rem;
   padding-bottom: 1rem;
@@ -9582,9 +9591,6 @@ a {
 }
 .cid-tenm3rBFaT .frame {
   min-height: 500px;
-}
-.cid-tenm3rBFaT html {
-  overflow: hidden;
 }
 .cid-tennoZRj3L {
   padding-top: 5rem;
