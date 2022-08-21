@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea Igeriketa Kirol Taldea",
-    "currentPage": "lehiaketa.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -54,7 +54,7 @@
       }
     ],
     "uniqCompNum": 613,
-    "versionPublish": "5.6.11",
+    "versionPublish": "5.6.5",
     "imageResize": true,
     "screenshot": "screenshot.png",
     "robotsSwitcher": true,
