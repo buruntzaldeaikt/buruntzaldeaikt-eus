@@ -1073,6 +1073,10 @@ a {
 .cid-sjZldZa2Bs .card-box {
   text-align: left;
 }
+.cid-sN1DdbEQp2 {
+  padding: 0% 5%;
+  background-color: #ffffff;
+}
 .cid-t0QnK24Imz {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -1226,10 +1230,6 @@ a {
   .cid-t0QnK24Imz .embla__container .embla__slide:last-child {
     margin-right: 2rem !important;
   }
-}
-.cid-sN1DdbEQp2 {
-  padding: 0% 5%;
-  background-color: #ffffff;
 }
 .cid-sgoK6u8osf {
   padding-top: 6rem;
@@ -1512,6 +1512,35 @@ a {
   .cid-sBIdkFjx8t div > *:last-child {
     margin-top: 0 !important;
   }
+}
+.cid-thv9Td9LqO .float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 10px;
+  background-color: #25d366;
+  color: #ffffff;
+  border-radius: 60px;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.cid-thv9Td9LqO .my-float {
+  margin-top: 16px;
+}
+.cid-thv9Td9LqO P {
+  color: #232323;
+}
+.cid-thv9Td9LqO DIV {
+  color: #ffffff;
+}
+.cid-thv9Td9LqO H10 {
+  color: #767676;
+}
+.cid-thv9Td9LqO .hidden {
+  display: none;
 }
 .cid-sgkXZxiFjh {
   padding-top: 8rem;
