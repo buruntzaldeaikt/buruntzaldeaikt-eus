@@ -90,12 +90,14 @@
     "global_header_custom": "<script id=\"Cookiebot\" src=\"https://consent.cookiebot.com/uc.js\" data-cbid=\"e1a0ee0e-3af1-48fa-b047-05d06ceb1572\" data-blockingmode=\"auto\" type=\"text/javascript\"></script>\n\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-161647715-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-161647715-1');\n</script>\n\n<meta name=\"follow.it-verification-code\" content=\"Ek3dgwNy9Re8LmxxfxFX\"/>\n\n<!-- Clarity tracking code for https://buruntzaldeaikt.eus/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src=\"https://www.clarity.ms/tag/\"+i+\"?ref=bwt\";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, \"clarity\", \"script\", \"cvldvzrdf5\");</script>\n\n<meta name=\"google-site-verification\" content=\"b2oOc9Pmls7psk5mN3mzQhRPAXOgP7Hxx1AN6Ku9MY8\" />",
     "global_before_html": "",
     "global_after_body": "<meta name=\"title\" content=\"Buruntzaldea IKT Igeriketa\">\n<meta name=\"description\" content=\"Buruntzaldea IKT igeriketa taldeak Lasarte-Orian eta Andoainen jarduten du. Alorrak: eskolarra, federatua, egokitua, masterra, parte-hartzea eta triatloia.\">\n<meta name=\"keywords\" content=\"BIKT, Buruntzaldea, buruntzaldea, bikt, igeriketa, lasarte, lasarte-oria, andoain, ikasi, talde, taldea, kluba, eskolarra, federatua, egokitua, parte-hartzea, parte-hartze, master, masterrak, bolondresak, xedea, ikuspegia, balioak, triatloia, estiloak, egutegia, errekorrak, taldeko, albisteak, bloga, covid19, egunerokoa, 2020/2021, deialdiak, hitzorduak, 696506632, info@buruntzaldeaikt.eus, lan poltsa, brnpwr, BRNPWR, bular, bizkar, krol, estilo, librea, tximeleta, lau\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"revisit-after\" content=\"7 days\">\n<meta name=\"author\" content=\"Buruntzaldea IKT\">\n\n",
-    "mbrsiteDomain": "s1gjz7dzme",
+    "mbrsiteDomain": "72qicadlpv",
     "global_footer_custom": "",
     "gdpr": false,
     "cookiesAlert": false,
     "witsec-mailform-recaptcha-hidebadge": false,
-    "witsec-jquery": false
+    "witsec-jquery": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -103,7 +105,7 @@
         "main": true,
         "title": "Buruntzaldea Igeriketa Kirol Taldea",
         "meta_descr": "Buruntzaldea IKT igeriketa taldea da, Lasarte-Orian eta Andoainen jarduera burutzen duena. Sorrera 2007an izan zuen eta gaur egun 120 igerilari baino gehiago biltzen ditu. Taldearen jarduerak igeriketa eskolarra, igeriketa federatua, igeriketa egokitua, master igeriketa, parte-hartze igeriketa eta triatloia dira.",
-        "header_custom": "<script id=\"Cookiebot\" src=\"https://consent.cookiebot.com/uc.js\" data-cbid=\"e1a0ee0e-3af1-48fa-b047-05d06ceb1572\" data-blockingmode=\"auto\" type=\"text/javascript\"></script>",
+        "header_custom": "<script id=\"mcjs\">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,\"script\",\"https://chimpstatic.com/mcjs-connected/js/users/2082451e1d82ef54efc7d9eaa/6e9d05692d76bac60b8650223.js\");</script>",
         "footer_custom": "",
         "html_before": "<script id=\"Cookiebot\" src=\"https://consent.cookiebot.com/uc.js\" data-cbid=\"e1a0ee0e-3af1-48fa-b047-05d06ceb1572\" data-blockingmode=\"auto\" type=\"text/javascript\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/estua-2000x463.jpg"
