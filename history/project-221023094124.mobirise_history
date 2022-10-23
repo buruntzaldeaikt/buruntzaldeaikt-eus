@@ -105,9 +105,9 @@
         "main": true,
         "title": "Buruntzaldea Igeriketa Kirol Taldea",
         "meta_descr": "Buruntzaldea IKT igeriketa taldea da, Lasarte-Orian eta Andoainen jarduera burutzen duena. Sorrera 2007an izan zuen eta gaur egun 120 igerilari baino gehiago biltzen ditu. Taldearen jarduerak igeriketa eskolarra, igeriketa federatua, igeriketa egokitua, master igeriketa, parte-hartze igeriketa eta triatloia dira.",
-        "header_custom": "<script id=\"Cookiebot\" src=\"https://consent.cookiebot.com/uc.js\" data-cbid=\"e1a0ee0e-3af1-48fa-b047-05d06ceb1572\" data-blockingmode=\"auto\" type=\"text/javascript\"></script>",
+        "header_custom": "",
         "footer_custom": "",
-        "html_before": "",
+        "html_before": "<script id=\"Cookiebot\" src=\"https://consent.cookiebot.com/uc.js\" data-cbid=\"e1a0ee0e-3af1-48fa-b047-05d06ceb1572\" data-blockingmode=\"auto\" type=\"text/javascript\"></script>",
         "meta_image": "@PROJECT_PATH@/assets/images/estua-2000x463.jpg"
       },
       "components": [
