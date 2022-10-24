@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Buruntzaldea Igeriketa Kirol Taldea",
-    "currentPage": "bolondresak.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -20,7 +20,7 @@
         "display5Font": "Jost",
         "display5Size": 2.2,
         "display7Font": "Jost",
-        "display7Size": "1.1",
+        "display7Size": 1.2,
         "display4Font": "Jost",
         "display4Size": "0.9",
         "isRoundedButtons": false,
@@ -30,13 +30,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
-        "#abc1a4",
         "#149dcc",
         "#103d12",
         "#efefef",
         "#c1f0b2",
         "#054d07",
-        "#e1e9de"
+        "#e1e9de",
+        "#eaf4e7"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -90,7 +90,7 @@
     "global_header_custom": "<script id=\"Cookiebot\" src=\"https://consent.cookiebot.com/uc.js\" data-cbid=\"e1a0ee0e-3af1-48fa-b047-05d06ceb1572\" data-blockingmode=\"auto\" type=\"text/javascript\"></script>\n\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-161647715-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-161647715-1');\n</script>\n\n<meta name=\"follow.it-verification-code\" content=\"Ek3dgwNy9Re8LmxxfxFX\"/>\n\n<!-- Clarity tracking code for https://buruntzaldeaikt.eus/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src=\"https://www.clarity.ms/tag/\"+i+\"?ref=bwt\";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, \"clarity\", \"script\", \"cvldvzrdf5\");</script>\n\n<meta name=\"google-site-verification\" content=\"b2oOc9Pmls7psk5mN3mzQhRPAXOgP7Hxx1AN6Ku9MY8\" />",
     "global_before_html": "",
     "global_after_body": "<meta name=\"title\" content=\"Buruntzaldea IKT Igeriketa\">\n<meta name=\"description\" content=\"Buruntzaldea IKT igeriketa taldeak Lasarte-Orian eta Andoainen jarduten du. Alorrak: eskolarra, federatua, egokitua, masterra, parte-hartzea eta triatloia.\">\n<meta name=\"keywords\" content=\"BIKT, Buruntzaldea, buruntzaldea, bikt, igeriketa, lasarte, lasarte-oria, andoain, ikasi, talde, taldea, kluba, eskolarra, federatua, egokitua, parte-hartzea, parte-hartze, master, masterrak, bolondresak, xedea, ikuspegia, balioak, triatloia, estiloak, egutegia, errekorrak, taldeko, albisteak, bloga, covid19, egunerokoa, 2020/2021, deialdiak, hitzorduak, 696506632, info@buruntzaldeaikt.eus, lan poltsa, brnpwr, BRNPWR, bular, bizkar, krol, estilo, librea, tximeleta, lau\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta name=\"revisit-after\" content=\"7 days\">\n<meta name=\"author\" content=\"Buruntzaldea IKT\">\n\n",
-    "mbrsiteDomain": "y3jacfsyzf",
+    "mbrsiteDomain": "zytjmbfycv",
     "global_footer_custom": "",
     "gdpr": false,
     "cookiesAlert": false,
@@ -6862,100 +6862,102 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-subtitle": {
-              "color": "#767676"
+            ".card-box": {
+              "z-index": "10",
+              "position": "relative"
             },
-            ".container-table": {
-              "margin": "0 auto"
+            "@media (min-width: 1500px)": {
+              ".container": {
+                "max-width": "1400px"
+              }
             },
-            ".scroll": {
-              "overflow-x": "auto",
-              "padding": "0"
+            ".card": {
+              "margin": "auto"
             },
-            ".dataTables_wrapper": {
+            ".mbr-iconfont": {
               "display": "block",
-              ".search": {
-                "margin-bottom": ".5rem"
-              },
-              ".table": {
-                "overflow-x": "auto"
-              }
+              "font-size": "5rem",
+              "color": "@iconColor",
+              "margin-bottom": "2rem"
             },
-            "table": {
-              "width": "100% !important",
-              "margin-top": "6px",
-              "border": "1px solid @tbColor",
-              "margin-bottom": "0",
-              "th": {
-                "border-top": "none",
-                "transition": "all .2s",
-                "border-bottom": "none",
-                "&:hover": {
-                  "background": "@tbColor",
-                  "color": "contrast(@tbColor)"
-                }
-              },
-              "td": {
-                "border-top": "1px solid @tbColor"
-              },
-              "&.table": {
-                "& when (@tbBackground)": {
-                  "background": "@tbBgColor"
-                }
-              }
+            ".card-wrapper": {
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
             },
-            ".dataTables_filter": {
-              "text-align": "right",
-              "margin-bottom": ".5rem",
-              "label": {
-                "display": "inline",
-                "white-space": "normal !important"
-              },
-              "input": {
-                "display": "inline",
-                "width": "auto",
-                "margin-left": ".5rem",
-                "border-radius": "100px",
-                "padding-left": "1rem"
-              }
+            ".row": {
+              "justify-content": "center"
             },
-            ".dataTables_info": {
-              "padding-bottom": "1rem",
-              "padding-top": "1rem",
-              "white-space": "normal !important"
-            },
-            "@media (max-width: 992px)": {
-              ".dataTables_filter": {
-                "text-align": "center"
-              }
-            },
-            "@media (max-width: 350px)": {
-              ".dataTables_filter": {
-                "text-align": "center",
-                "input": {
-                  "width": "100% !important",
-                  "margin-left": "0 !important"
-                }
-              }
-            },
-            ".mbr-section-title": {
-              "text-align": "left",
-              "color": "#103d12"
+            "H3": {
+              "text-align": "left"
             }
           },
-          "_name": "design-block",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">  <mbr-parameters>  <!-- Block parameters controls (Blue \"Gear\" panel) -->    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">    <input type=\"range\" inline title=\"Columns\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"4\">    <input type=\"range\" inline title=\"Rows\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"8\">    <input type=\"color\" title=\"Table Border Color\" name=\"tbColor\" value=\"#cccccc\">    <input type=\"checkbox\" title=\"Table Background\" name=\"tbBackground\" checked>    <input type=\"color\" title=\"Table Background Color\" name=\"tbBgColor\" value=\"#ffffff\" condition=\"tbBackground\">    <input type=\"checkbox\" title=\"Search\" name=\"isSearch\">    <fieldset type=\"background\" name=\"bg\" parallax>      <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>      <input type=\"color\" title=\"Background Color\" value=\"#e1e9de\" selected>      <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">    </fieldset>    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">  <!-- End block parameters -->  </mbr-parameters>  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">  </div>  <div class=\"container container-table\">      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"><b><i>22/23 denboraldian taldeak antolatuko dituen lehiaketak</i></b></h2>      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">            Click blue \"Gear\" icon in the top right corner to hide/show search and info, change the the table background and other parameters.  In browser click on the table head to sort the table, use search to filter the table.           </h3>      <div class=\"table-wrapper\">        <div class=\"container\">          <div class=\"row search\" mbr-if=\"isSearch\">            <div class=\"col-md-6\"></div>            <div class=\"col-md-6\">                <div class=\"dataTables_filter\">                  <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\">Search:</label>                  <input class=\"form-control input-sm\" disabled>                </div>            </div>          </div>        </div>        <div class=\"container scroll\">          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\">            <thead>              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\" data-sortable=\"false\"><b>                      LEHIAKETA</b></th>                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\" data-sortable=\"false\"><b>                      EGUNA</b></th>                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\" data-sortable=\"false\"><b>                      KIROLDEGIA</b></th>                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\" data-sortable=\"false\"><b>                      BOLONDRES IZEN-EMATEA</b></th>              </tr>            </thead>            <tbody mbr-list mbr-list-grow=\"tableRows\">              <tr mbr-list mbr-list-grow=\"tableColumns\">                 <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Neguko Ligako 2. jardunaldia</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2022/11/05</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Lasarte-Oria</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"><b><a href=\"https://forms.gle/Uuwj9AcAPTnTupDe9\" class=\"text-primary\" target=\"_blank\">Izena eman</a></b></td>              </tr>              <tr mbr-list mbr-list-grow=\"tableColumns\">                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Neguko Ligako 3. jardunaldia</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2022/11/26</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Andoain</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>              </tr>              <tr mbr-list mbr-list-grow=\"tableColumns\">                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Distantzia Luzeko EHko Txapelketa</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2022/12/11</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Lasarte-Oria</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>              </tr>              <tr mbr-list mbr-list-grow=\"tableColumns\">                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Gipuzkoako Neguko Saria</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2023/02/04</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Andoain</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>              </tr>            <tr mbr-list mbr-list-grow=\"tableColumns\">                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">KZL/Test 3. jardunaldia eta Alebin Ligako 4. jardunaldia</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2023/02/11</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Lasarte-Oria</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>              </tr><tr mbr-list mbr-list-grow=\"tableColumns\">                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"><i>Gipuzkoako Eskolarteko Txapelketa, Igerilari Osoa ¿?</i></td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"><i>2023/05/20</i></td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"><i>Andoain</i></td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>              </tr><tr mbr-list mbr-list-grow=\"tableColumns\">                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Gipuzkoako Udako Saria</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2023/06/03</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Andoain</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>              </tr><tr mbr-list mbr-list-grow=\"tableColumns\">                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Lasarteko XXXII. Saria</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">2023/06/10</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Lasarte-Oria</td>                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"></td>              </tr></tbody>          </table>        </div>        <div class=\"container table-info-container\">          <div class=\"row info\" mbr-if=\"isSearch\">            <div class=\"col-md-6\">              <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\">                <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">Showing</span>                <span class=\"inactive infoRows\"></span>                <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">entries</span>                <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(filtered from</span>                <span class=\"inactive infoRows\"></span>                <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\"> total entries)</span>              </div>            </div>            <div class=\"col-md-6\"></div>          </div>        </div>      </div>    </div></section>",
-          "_cid": "8H64NJZm2h",
-          "_anchor": "design-block-8H64NJZm2h",
+          "_name": "features14",
           "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features13\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showmainTitle\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#103d12\" selected condition=\"showIcon\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background4-1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\" mbr-if=\"showmainTitle\">\n                <h3 class=\"mbr-section-title align-center mb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showmainTitle\"><b>21/22 denboraldian taldeak antolatuko dituen lehiaketak</b></h3>\n            </div>\n            <div class=\"card col-12 col-md-4 col-lg-2 p-3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <a href=\"https://forms.gle/GRAcQvTsYyvt1Fjj8\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont material material-filter-1\" mbr-if=\"showIcon\" style=\"font-size: 60px;\"></span></a>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>2021/10/23</b><br><b>Lasarte-Oria</b><br><a href=\"https://forms.gle/GRAcQvTsYyvt1Fjj8\" class=\"text-primary\" target=\"_blank\"><b>Alebin Ligako 1. jardunaldia</b></a></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont material material-filter-2\" mbr-if=\"showIcon\" style=\"font-size: 60px;\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>2021/11/20</b><div><b>Andoain</b></div><div><a href=\"https://forms.gle/EBRvDf18yooXCmfh8\" class=\"text-primary\" target=\"_blank\"><b>Neguko Ligako 3. jardunaldia</b></a></div></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont material material-filter-3\" mbr-if=\"showIcon\" style=\"font-size: 60px;\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>2022/01/08</b><div><b>Lasarte-Oria</b></div><div><a href=\"https://forms.gle/TVK31HH7DcMDYFBG9\" class=\"text-primary\" target=\"_blank\"><b>Alebin Ligako 3. jardunaldia</b></a></div></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont material material-filter-4\" mbr-if=\"showIcon\" style=\"font-size: 60px;\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>2021/12/18</b><div><b>Lasarte-Oria</b></div><div><a href=\"https://forms.gle/gVQ8Gu8ZmyZHMzEh8\" class=\"text-primary\" target=\"_blank\"><b>Distantzia Luzeko Euskal Herriko Txapelketa</b></a></div></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont material material-filter-5\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>Cookie Alert\n                            </b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont material material-filter-6\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>Mobile-friendly</b></h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "jardunaldiak",
+          "_isUserblock": true,
+          "_cid": "sLYHx9strm",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-box": {
+              "z-index": "10",
+              "position": "relative"
+            },
+            "@media (min-width: 1500px)": {
+              ".container": {
+                "max-width": "1400px"
+              }
+            },
+            ".card": {
+              "margin": "auto"
+            },
+            ".mbr-iconfont": {
+              "display": "block",
+              "font-size": "5rem",
+              "color": "@iconColor",
+              "margin-bottom": "2rem"
+            },
+            ".card-wrapper": {
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center"
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            "H3": {
+              "text-align": "left"
+            }
+          },
+          "_name": "features14",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features13\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showmainTitle\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\" checked>\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#103d12\" selected condition=\"showIcon\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background4-1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\" mbr-if=\"showmainTitle\">\n                <h3 class=\"mbr-section-title align-center mb-4 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showmainTitle\"><b>21/22 denboraldian taldeak antolatuko dituen lehiaketak</b></h3>\n            </div>\n            <div class=\"card col-12 col-md-4 col-lg-2 p-3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <a href=\"https://forms.gle/GRAcQvTsYyvt1Fjj8\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont material material-filter-5\" mbr-if=\"showIcon\" style=\"font-size: 60px;\"></span></a>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>2022/02/05</b><br><b>Andoain</b><br><a href=\"https://forms.gle/2DyY5gwaB2EL9t3x8\" class=\"text-primary\" target=\"_blank\"><b>Gipuzkoako Neguko Saria</b></a></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont material material-filter-6\" mbr-if=\"showIcon\" style=\"font-size: 60px;\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>2022/03/05</b><div><b>Andoain</b></div><div><a href=\"https://forms.gle/xBCiTAfMxKPZ53tT6\" class=\"text-primary\" target=\"_blank\"><b>Alebin Ligako 5. jardunaldia</b></a></div></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont material material-filter-7\" mbr-if=\"showIcon\" style=\"font-size: 60px;\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>2022/06/04</b><div><b>Andoain</b></div><div><a href=\"https://forms.gle/jCHEuEhUNZ6uNMok9\" class=\"text-primary\" target=\"_blank\"><b>Gipuzkoako Udako Saria</b></a></div></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont material material-filter-8\" mbr-if=\"showIcon\" style=\"font-size: 60px;\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>2022/06/11 eta 12</b><div><b>Lasarte-Oria</b></div><div><a href=\"https://forms.gle/cqJvQqWWEEpLzu3a7\" class=\"text-primary\" target=\"_blank\"><b>Lasarteko XXXI. Saria</b></a></div></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 4\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont material material-filter-5\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>Cookie Alert\n                            </b></h4>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-4 col-lg-2\" mbr-if=\"cardsAmount > 5\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <span mbr-icon class=\"mbr-iconfont material material-filter-6\" mbr-if=\"showIcon\"></span>\n                        <h4 class=\"card-title align-center mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>Mobile-friendly</b></h4>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "features14-f7",
+          "_isUserblock": true,
+          "_cid": "sPRfGwgRWP",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
