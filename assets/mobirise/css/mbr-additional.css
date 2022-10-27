@@ -1585,6 +1585,45 @@ a {
     text-align: center;
   }
 }
+.cid-tlrBozDO41 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-tlrBozDO41 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tlrBozDO41 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tlrBozDO41 .card .card-header {
+  background-color: transparent;
+  margin-bottom: 0;
+}
+.cid-tlrBozDO41 .panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cid-tlrBozDO41 .mbr-iconfont {
+  padding-left: 1rem;
+  font-family: 'Moririse2' !important;
+  font-size: 1.4rem !important;
+  color: #103d12;
+}
+.cid-tlrBozDO41 .panel-body,
+.cid-tlrBozDO41 .card-header {
+  padding: 1rem 0;
+}
+.cid-tlrBozDO41 .panel-title-edit {
+  color: #000000;
+}
 .cid-sgl15BYUCx {
   padding-top: 6rem;
   padding-bottom: 1rem;
